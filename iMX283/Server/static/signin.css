@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 350px;
+  align-items: center;
+  padding: 15px;
+  margin: auto;
+}
