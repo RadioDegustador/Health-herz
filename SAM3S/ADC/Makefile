@@ -44,7 +44,7 @@ endif
 # Define project name here
 PROJECT = ch
 
-# Imported source files
+# Imported source files "Cambiar esta ruta por la del ChibiOS de su PC"
 CHIBIOS = /home/nicolas/Escritorio/Embebidos/stamp_repo/files/code/ext/ChibiOS
 include $(CHIBIOS)/boards/ATMEL_SAM3S_EK/board.mk
 include $(CHIBIOS)/os/hal/platforms/AT91SAM3S/platform.mk
