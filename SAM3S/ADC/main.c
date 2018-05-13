@@ -34,7 +34,7 @@ int main(void) {
 
    halInit();
    chSysInit();
-   sdStart(&SD2, NULL);  /* Activates the serial driver 2 */
+   sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial*/
 
    // Configure PCK2 as FPGA clock
 
