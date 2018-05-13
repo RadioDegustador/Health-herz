@@ -34,8 +34,9 @@ int main(void) {
 
    halInit();
    chSysInit();
-   sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial*/
-
+   sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
+   /*Baud rate por defecto del serial 115200*/
+   
    // Configure PCK2 as FPGA clock
 
    PIO_Configure(pinPCK, 1);
