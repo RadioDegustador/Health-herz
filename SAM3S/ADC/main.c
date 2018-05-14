@@ -34,8 +34,9 @@ int main(void) {
 
    halInit();
    chSysInit();
-   sdStart(&SD2, NULL);  /* Activates the serial driver 2 */
-
+   sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
+   /*Baud rate por defecto del serial 115200*/
+   
    // Configure PCK2 as FPGA clock
 
    PIO_Configure(pinPCK, 1);
@@ -72,7 +73,7 @@ int main(void) {
     	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada //
     	espacio de ADC_Val[]*/    
       	ADC_Val[i] = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 registros	
-    	chprintf((BaseChannel *)&SD2, "%d, %d, %d, %d \r\n", ADC_Val[i]*3300/4096) ;
+    	chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096) ;
     };
    }
    return(0);

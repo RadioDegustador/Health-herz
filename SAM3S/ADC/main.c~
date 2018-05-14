@@ -34,7 +34,7 @@ int main(void) {
 
    halInit();
    chSysInit();
-   sdStart(&SD2, NULL);  /* Activates the serial driver 2 */
+   sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
 
    // Configure PCK2 as FPGA clock
 
@@ -55,7 +55,7 @@ int main(void) {
     */
    ADC_cfgFrequency( ADC, 15, 11 ); /*//ADC_cfgFrequency( Adc* pAdc, uint32_t startup, uint32_t prescal )
                                     //startup =  ciclos de reloj que cuenta el ADC antes de inicial 15 = 960 periodos de Clk ADC
-                                   // prescal = 11, divide la velocidad del clk externo para obtener el valor de adc_freq = mck_freq / ((prescal+1)*2) */
+                                   // prescal = 11, divide la velocidad del clk externo para obtener el valor de adc_freq = mck_freq / 					   ((prescal+1)*2) */
                                     // freqADC = 2Mhz para pescal = 11 y clk_ext = 48MHz
    ADC_check( ADC, 48000000 ); // Board Clock 48000000 ADC_check( Adc* pAdc, uint32_t mck_freq )
                                     //mck_freq=  frecuencia de la placa, adc_freq = mck_freq / ((prescal+1)*2);
@@ -72,7 +72,7 @@ int main(void) {
     	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada //
     	espacio de ADC_Val[]*/    
       	ADC_Val[i] = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 registros	
-    	chprintf((BaseChannel *)&SD2, "%d, %d, %d, %d \r\n", ADC_Val[i]*3300/4096) ;
+    	chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096) ;
     };
    }
    return(0);
