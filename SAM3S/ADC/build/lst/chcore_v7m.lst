@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccJxBAnY.s 			page 1
+ARM GAS  /tmp/ccunuWOf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
   55              		.type	SVCallVector, %function
   56              	SVCallVector:
   57              	.LFB8:
-ARM GAS  /tmp/ccJxBAnY.s 			page 2
+ARM GAS  /tmp/ccunuWOf.s 			page 2
 
 
   58              		.loc 1 65 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  112 0008 9960     		str	r1, [r3, #8]
  113              		.loc 1 125 0
  114 000a 0720     		movs	r0, #7
-ARM GAS  /tmp/ccJxBAnY.s 			page 3
+ARM GAS  /tmp/ccunuWOf.s 			page 3
 
 
  115              		.loc 1 122 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  169 000a 13F40063 		ands	r3, r3, #2048
  170 000e 19D0     		beq	.L8
  171              	.LBB15:
-ARM GAS  /tmp/ccJxBAnY.s 			page 4
+ARM GAS  /tmp/ccunuWOf.s 			page 4
 
 
  172              	.LBB16:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  226              	.LBB19:
  227              	.LBB17:
  228              		.loc 1 165 0
-ARM GAS  /tmp/ccJxBAnY.s 			page 5
+ARM GAS  /tmp/ccunuWOf.s 			page 5
 
 
  229 004a D169     		ldr	r1, [r2, #28]
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  283              	.LBB21:
  284              		.loc 1 53 0
  285 000c 0023     		movs	r3, #0
-ARM GAS  /tmp/ccJxBAnY.s 			page 6
+ARM GAS  /tmp/ccunuWOf.s 			page 6
 
 
  286              	@ 53 "/home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/ports/GCC/ARMCMx/chcore_
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  340              		.thumb_func
  341              		.type	_port_thread_start, %function
  342              	_port_thread_start:
-ARM GAS  /tmp/ccJxBAnY.s 			page 7
+ARM GAS  /tmp/ccunuWOf.s 			page 7
 
 
  343              	.LFB13:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  397 0028 03       		.uleb128 0x3
  398 0029 04       		.byte	0x4
  399 002a 07       		.byte	0x7
-ARM GAS  /tmp/ccJxBAnY.s 			page 8
+ARM GAS  /tmp/ccunuWOf.s 			page 8
 
 
  400 002b F6010000 		.4byte	.LASF0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  454 0094 1A030000 		.4byte	.LASF13
  455 0098 03       		.byte	0x3
  456 0099 1F       		.byte	0x1f
-ARM GAS  /tmp/ccJxBAnY.s 			page 9
+ARM GAS  /tmp/ccunuWOf.s 			page 9
 
 
  457 009a 56000000 		.4byte	0x56
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  511 0112 06       		.byte	0x6
  512 0113 5E       		.byte	0x5e
  513 0114 FD010000 		.4byte	0x1fd
-ARM GAS  /tmp/ccJxBAnY.s 			page 10
+ARM GAS  /tmp/ccunuWOf.s 			page 10
 
 
  514 0118 06       		.uleb128 0x6
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  568 0184 06       		.uleb128 0x6
  569 0185 70040000 		.4byte	.LASF33
  570 0189 06       		.byte	0x6
-ARM GAS  /tmp/ccJxBAnY.s 			page 11
+ARM GAS  /tmp/ccunuWOf.s 			page 11
 
 
  571 018a 82       		.byte	0x82
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  625 01f6 D4       		.byte	0xd4
  626 01f7 5A020000 		.4byte	0x25a
  627 01fb 44       		.byte	0x44
-ARM GAS  /tmp/ccJxBAnY.s 			page 12
+ARM GAS  /tmp/ccunuWOf.s 			page 12
 
 
  628 01fc 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  682 0262 07       		.byte	0x7
  683 0263 DF       		.byte	0xdf
  684 0264 C4020000 		.4byte	0x2c4
-ARM GAS  /tmp/ccJxBAnY.s 			page 13
+ARM GAS  /tmp/ccunuWOf.s 			page 13
 
 
  685 0268 07       		.uleb128 0x7
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  739 02cc 3F030000 		.4byte	0x33f
  740 02d0 0B       		.uleb128 0xb
  741 02d1 723400   		.ascii	"r4\000"
-ARM GAS  /tmp/ccJxBAnY.s 			page 14
+ARM GAS  /tmp/ccunuWOf.s 			page 14
 
 
  742 02d4 07       		.byte	0x7
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  796 0340 4B020000 		.4byte	.LASF49
  797 0344 04       		.byte	0x4
  798 0345 07       		.byte	0x7
-ARM GAS  /tmp/ccJxBAnY.s 			page 15
+ARM GAS  /tmp/ccunuWOf.s 			page 15
 
 
  799 0346 2301     		.2byte	0x123
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  853 03b4 08       		.byte	0x8
  854 03b5 8E       		.byte	0x8e
  855 03b6 60030000 		.4byte	0x360
-ARM GAS  /tmp/ccJxBAnY.s 			page 16
+ARM GAS  /tmp/ccunuWOf.s 			page 16
 
 
  856 03ba 10       		.byte	0x10
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  910 0426 3C       		.byte	0x3c
  911 0427 07       		.uleb128 0x7
  912 0428 50465200 		.ascii	"PFR\000"
-ARM GAS  /tmp/ccJxBAnY.s 			page 17
+ARM GAS  /tmp/ccunuWOf.s 			page 17
 
 
  913 042c 08       		.byte	0x8
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  967 049b 70030000 		.4byte	0x370
  968 049f 01       		.byte	0x1
  969 04a0 00       		.byte	0
-ARM GAS  /tmp/ccJxBAnY.s 			page 18
+ARM GAS  /tmp/ccunuWOf.s 			page 18
 
 
  970 04a1 0D       		.uleb128 0xd
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1024 0516 09       		.byte	0x9
  1025 0517 65       		.byte	0x65
  1026 0518 1E020000 		.4byte	0x21e
-ARM GAS  /tmp/ccJxBAnY.s 			page 19
+ARM GAS  /tmp/ccunuWOf.s 			page 19
 
 
  1027 051c 10       		.byte	0x10
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1081 0585 BD020000 		.4byte	.LASF76
  1082 0589 0A       		.byte	0xa
  1083 058a 33       		.byte	0x33
-ARM GAS  /tmp/ccJxBAnY.s 			page 20
+ARM GAS  /tmp/ccunuWOf.s 			page 20
 
 
  1084 058b 4D050000 		.4byte	0x54d
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1138 05fa 0A060000 		.4byte	0x60a
  1139 05fe 16       		.uleb128 0x16
  1140 05ff 06030000 		.4byte	.LASF85
-ARM GAS  /tmp/ccJxBAnY.s 			page 21
+ARM GAS  /tmp/ccunuWOf.s 			page 21
 
 
  1141 0603 01       		.byte	0x1
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1195 0678 00       		.byte	0
  1196 0679 18       		.uleb128 0x18
  1197 067a 94040000 		.4byte	.LASF88
-ARM GAS  /tmp/ccJxBAnY.s 			page 22
+ARM GAS  /tmp/ccunuWOf.s 			page 22
 
 
  1198 067e 01       		.byte	0x1
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1252 06d6 20       		.uleb128 0x20
  1253 06d7 DC050000 		.4byte	0x5dc
  1254 06db 00000000 		.4byte	.LFB10
-ARM GAS  /tmp/ccJxBAnY.s 			page 23
+ARM GAS  /tmp/ccunuWOf.s 			page 23
 
 
  1255 06df 74000000 		.4byte	.LFE10-.LFB10
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1309 0760 1C       		.uleb128 0x1c
  1310 0761 746D7000 		.ascii	"tmp\000"
  1311 0765 01       		.byte	0x1
-ARM GAS  /tmp/ccJxBAnY.s 			page 24
+ARM GAS  /tmp/ccunuWOf.s 			page 24
 
 
  1312 0766 35       		.byte	0x35
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1366 07dd 53       		.byte	0x53
  1367 07de 00       		.byte	0
  1368 07df 00       		.byte	0
-ARM GAS  /tmp/ccJxBAnY.s 			page 25
+ARM GAS  /tmp/ccunuWOf.s 			page 25
 
 
  1369 07e0 29       		.uleb128 0x29
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1423 001c 03       		.uleb128 0x3
  1424 001d 24       		.uleb128 0x24
  1425 001e 00       		.byte	0
-ARM GAS  /tmp/ccJxBAnY.s 			page 26
+ARM GAS  /tmp/ccunuWOf.s 			page 26
 
 
  1426 001f 0B       		.uleb128 0xb
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1480 0055 03       		.uleb128 0x3
  1481 0056 08       		.uleb128 0x8
  1482 0057 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccJxBAnY.s 			page 27
+ARM GAS  /tmp/ccunuWOf.s 			page 27
 
 
  1483 0058 0B       		.uleb128 0xb
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1537 008e 13       		.uleb128 0x13
  1538 008f 01       		.byte	0x1
  1539 0090 03       		.uleb128 0x3
-ARM GAS  /tmp/ccJxBAnY.s 			page 28
+ARM GAS  /tmp/ccunuWOf.s 			page 28
 
 
  1540 0091 0E       		.uleb128 0xe
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1594 00c7 3A       		.uleb128 0x3a
  1595 00c8 0B       		.uleb128 0xb
  1596 00c9 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccJxBAnY.s 			page 29
+ARM GAS  /tmp/ccunuWOf.s 			page 29
 
 
  1597 00ca 0B       		.uleb128 0xb
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1651 0100 03       		.uleb128 0x3
  1652 0101 0E       		.uleb128 0xe
  1653 0102 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccJxBAnY.s 			page 30
+ARM GAS  /tmp/ccunuWOf.s 			page 30
 
 
  1654 0103 0B       		.uleb128 0xb
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1708 013c 0B       		.uleb128 0xb
  1709 013d 49       		.uleb128 0x49
  1710 013e 13       		.uleb128 0x13
-ARM GAS  /tmp/ccJxBAnY.s 			page 31
+ARM GAS  /tmp/ccunuWOf.s 			page 31
 
 
  1711 013f 02       		.uleb128 0x2
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1765 017d 19       		.uleb128 0x19
  1766 017e 31       		.uleb128 0x31
  1767 017f 13       		.uleb128 0x13
-ARM GAS  /tmp/ccJxBAnY.s 			page 32
+ARM GAS  /tmp/ccunuWOf.s 			page 32
 
 
  1768 0180 00       		.byte	0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1822 01b7 17       		.uleb128 0x17
  1823 01b8 00       		.byte	0
  1824 01b9 00       		.byte	0
-ARM GAS  /tmp/ccJxBAnY.s 			page 33
+ARM GAS  /tmp/ccunuWOf.s 			page 33
 
 
  1825 01ba 25       		.uleb128 0x25
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1879 01f4 03       		.uleb128 0x3
  1880 01f5 08       		.uleb128 0x8
  1881 01f6 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccJxBAnY.s 			page 34
+ARM GAS  /tmp/ccunuWOf.s 			page 34
 
 
  1882 01f7 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1936 022d 27       		.uleb128 0x27
  1937 022e 19       		.uleb128 0x19
  1938 022f 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccJxBAnY.s 			page 35
+ARM GAS  /tmp/ccunuWOf.s 			page 35
 
 
  1939 0230 19       		.uleb128 0x19
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  1993 0000 4C000000 		.4byte	0x4c
  1994 0004 0200     		.2byte	0x2
  1995 0006 00000000 		.4byte	.Ldebug_info0
-ARM GAS  /tmp/ccJxBAnY.s 			page 36
+ARM GAS  /tmp/ccunuWOf.s 			page 36
 
 
  1996 000a 04       		.byte	0x4
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2045              	.LASF80:
  2046 0006 7264796D 		.ascii	"rdymsg\000"
  2046      736700
-ARM GAS  /tmp/ccJxBAnY.s 			page 37
+ARM GAS  /tmp/ccunuWOf.s 			page 37
 
 
  2047              	.LASF5:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2066      696F00
  2067              	.LASF10:
  2068 0144 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  /tmp/ccJxBAnY.s 			page 38
+ARM GAS  /tmp/ccunuWOf.s 			page 38
 
 
  2068      206C6F6E 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2094      68446F52 
  2094      65736368 
  2094      6564756C 
-ARM GAS  /tmp/ccJxBAnY.s 			page 39
+ARM GAS  /tmp/ccunuWOf.s 			page 39
 
 
  2094      6500
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2122 0277 44465352 		.ascii	"DFSR\000"
  2122      00
  2123              	.LASF71:
-ARM GAS  /tmp/ccJxBAnY.s 			page 40
+ARM GAS  /tmp/ccunuWOf.s 			page 40
 
 
  2124 027c 725F6E65 		.ascii	"r_newer\000"
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2154 0306 63747870 		.ascii	"ctxp\000"
  2154      00
  2155              	.LASF25:
-ARM GAS  /tmp/ccJxBAnY.s 			page 41
+ARM GAS  /tmp/ccunuWOf.s 			page 41
 
 
  2156 030b 705F7072 		.ascii	"p_prev\000"
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2185 03d7 54687265 		.ascii	"Thread\000"
  2185      616400
  2186              	.LASF38:
-ARM GAS  /tmp/ccJxBAnY.s 			page 42
+ARM GAS  /tmp/ccunuWOf.s 			page 42
 
 
  2187 03de 705F6570 		.ascii	"p_epending\000"
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2217      747800
  2218              	.LASF36:
  2219 0465 705F6D73 		.ascii	"p_msgqueue\000"
-ARM GAS  /tmp/ccJxBAnY.s 			page 43
+ARM GAS  /tmp/ccunuWOf.s 			page 43
 
 
  2219      67717565 
@@ -2566,28 +2566,28 @@ ARM GAS  /tmp/ccJxBAnY.s 			page 1
  2245      6974696E 
  2245      6700
  2246              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccJxBAnY.s 			page 44
+ARM GAS  /tmp/ccunuWOf.s 			page 44
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore_v7m.c
-     /tmp/ccJxBAnY.s:19     .text._port_switch_from_isr:00000000 $t
-     /tmp/ccJxBAnY.s:25     .text._port_switch_from_isr:00000000 _port_switch_from_isr
-     /tmp/ccJxBAnY.s:38     .text._port_switch_from_isr:00000004 _port_exit_from_isr
-     /tmp/ccJxBAnY.s:50     .text.SVCallVector:00000000 $t
-     /tmp/ccJxBAnY.s:56     .text.SVCallVector:00000000 SVCallVector
-     /tmp/ccJxBAnY.s:91     .text._port_init:00000000 $t
-     /tmp/ccJxBAnY.s:97     .text._port_init:00000000 _port_init
-     /tmp/ccJxBAnY.s:139    .text._port_init:0000002c $d
-     /tmp/ccJxBAnY.s:145    .text._port_irq_epilogue:00000000 $t
-     /tmp/ccJxBAnY.s:151    .text._port_irq_epilogue:00000000 _port_irq_epilogue
-     /tmp/ccJxBAnY.s:246    .text._port_irq_epilogue:00000064 $d
-     /tmp/ccJxBAnY.s:256    .text.SysTickVector:00000000 $t
-     /tmp/ccJxBAnY.s:262    .text.SysTickVector:00000000 SysTickVector
-     /tmp/ccJxBAnY.s:303    .text._port_switch:00000000 $t
-     /tmp/ccJxBAnY.s:309    .text._port_switch:00000000 _port_switch
-     /tmp/ccJxBAnY.s:336    .text._port_thread_start:00000000 $t
-     /tmp/ccJxBAnY.s:342    .text._port_thread_start:00000000 _port_thread_start
+     /tmp/ccunuWOf.s:19     .text._port_switch_from_isr:00000000 $t
+     /tmp/ccunuWOf.s:25     .text._port_switch_from_isr:00000000 _port_switch_from_isr
+     /tmp/ccunuWOf.s:38     .text._port_switch_from_isr:00000004 _port_exit_from_isr
+     /tmp/ccunuWOf.s:50     .text.SVCallVector:00000000 $t
+     /tmp/ccunuWOf.s:56     .text.SVCallVector:00000000 SVCallVector
+     /tmp/ccunuWOf.s:91     .text._port_init:00000000 $t
+     /tmp/ccunuWOf.s:97     .text._port_init:00000000 _port_init
+     /tmp/ccunuWOf.s:139    .text._port_init:0000002c $d
+     /tmp/ccunuWOf.s:145    .text._port_irq_epilogue:00000000 $t
+     /tmp/ccunuWOf.s:151    .text._port_irq_epilogue:00000000 _port_irq_epilogue
+     /tmp/ccunuWOf.s:246    .text._port_irq_epilogue:00000064 $d
+     /tmp/ccunuWOf.s:256    .text.SysTickVector:00000000 $t
+     /tmp/ccunuWOf.s:262    .text.SysTickVector:00000000 SysTickVector
+     /tmp/ccunuWOf.s:303    .text._port_switch:00000000 $t
+     /tmp/ccunuWOf.s:309    .text._port_switch:00000000 _port_switch
+     /tmp/ccunuWOf.s:336    .text._port_thread_start:00000000 $t
+     /tmp/ccunuWOf.s:342    .text._port_thread_start:00000000 _port_thread_start
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

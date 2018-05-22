@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccuY9VTG.s 			page 1
+ARM GAS  /tmp/ccLFviJz.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
   55 0020 0721     		movs	r1, #7
   56              		.loc 1 72 0
   57 0022 5360     		str	r3, [r2, #4]
-ARM GAS  /tmp/ccuY9VTG.s 			page 2
+ARM GAS  /tmp/ccLFviJz.s 			page 2
 
 
   58              		.loc 1 73 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  112 0021 02       		.uleb128 0x2
  113 0022 04       		.byte	0x4
  114 0023 05       		.byte	0x5
-ARM GAS  /tmp/ccuY9VTG.s 			page 3
+ARM GAS  /tmp/ccLFviJz.s 			page 3
 
 
  115 0024 696E7400 		.ascii	"int\000"
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  169 008a 01       		.byte	0x1
  170 008b 08       		.byte	0x8
  171 008c 14020000 		.4byte	.LASF12
-ARM GAS  /tmp/ccuY9VTG.s 			page 4
+ARM GAS  /tmp/ccLFviJz.s 			page 4
 
 
  172 0090 06       		.uleb128 0x6
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  226 0108 51       		.byte	0x51
  227 0109 01       		.uleb128 0x1
  228 010a 38       		.byte	0x38
-ARM GAS  /tmp/ccuY9VTG.s 			page 5
+ARM GAS  /tmp/ccLFviJz.s 			page 5
 
 
  229 010b 0E       		.uleb128 0xe
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  283 0001 11       		.uleb128 0x11
  284 0002 01       		.byte	0x1
  285 0003 25       		.uleb128 0x25
-ARM GAS  /tmp/ccuY9VTG.s 			page 6
+ARM GAS  /tmp/ccLFviJz.s 			page 6
 
 
  286 0004 0E       		.uleb128 0xe
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  340 003a 00       		.byte	0
  341 003b 06       		.uleb128 0x6
  342 003c 26       		.uleb128 0x26
-ARM GAS  /tmp/ccuY9VTG.s 			page 7
+ARM GAS  /tmp/ccLFviJz.s 			page 7
 
 
  343 003d 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  397 0073 0B       		.uleb128 0xb
  398 0074 3B       		.uleb128 0x3b
  399 0075 05       		.uleb128 0x5
-ARM GAS  /tmp/ccuY9VTG.s 			page 8
+ARM GAS  /tmp/ccLFviJz.s 			page 8
 
 
  400 0076 49       		.uleb128 0x49
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  454 00b4 00       		.byte	0
  455 00b5 00       		.byte	0
  456 00b6 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccuY9VTG.s 			page 9
+ARM GAS  /tmp/ccLFviJz.s 			page 9
 
 
  457 00b7 898201   		.uleb128 0x4109
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  511 00f0 0B       		.uleb128 0xb
  512 00f1 27       		.uleb128 0x27
  513 00f2 19       		.uleb128 0x19
-ARM GAS  /tmp/ccuY9VTG.s 			page 10
+ARM GAS  /tmp/ccLFviJz.s 			page 10
 
 
  514 00f3 3C       		.uleb128 0x3c
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  568              	.Ldebug_line0:
  569 0000 CB010000 		.section	.debug_str,"MS",%progbits,1
  569      02009C01 
-ARM GAS  /tmp/ccuY9VTG.s 			page 11
+ARM GAS  /tmp/ccLFviJz.s 			page 11
 
 
  569      00000201 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  586              	.LASF6:
  587 012e 6C6F6E67 		.ascii	"long unsigned int\000"
  587      20756E73 
-ARM GAS  /tmp/ccuY9VTG.s 			page 12
+ARM GAS  /tmp/ccLFviJz.s 			page 12
 
 
  587      69676E65 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  609      33325F74 
  609      00
  610              	.LASF5:
-ARM GAS  /tmp/ccuY9VTG.s 			page 13
+ARM GAS  /tmp/ccLFviJz.s 			page 13
 
 
  611 0222 6C6F6E67 		.ascii	"long int\000"
@@ -760,16 +760,16 @@ ARM GAS  /tmp/ccuY9VTG.s 			page 1
  627      74797065 
  627      00
  628              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccuY9VTG.s 			page 14
+ARM GAS  /tmp/ccLFviJz.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal_lld.c
-     /tmp/ccuY9VTG.s:19     .text.hal_lld_init:00000000 $t
-     /tmp/ccuY9VTG.s:25     .text.hal_lld_init:00000000 hal_lld_init
-     /tmp/ccuY9VTG.s:66     .text.hal_lld_init:0000002c $d
-     /tmp/ccuY9VTG.s:73     .text.at91sam3_clock_init:00000000 $t
-     /tmp/ccuY9VTG.s:79     .text.at91sam3_clock_init:00000000 at91sam3_clock_init
+     /tmp/ccLFviJz.s:19     .text.hal_lld_init:00000000 $t
+     /tmp/ccLFviJz.s:25     .text.hal_lld_init:00000000 hal_lld_init
+     /tmp/ccLFviJz.s:66     .text.hal_lld_init:0000002c $d
+     /tmp/ccLFviJz.s:73     .text.at91sam3_clock_init:00000000 $t
+     /tmp/ccLFviJz.s:79     .text.at91sam3_clock_init:00000000 at91sam3_clock_init
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

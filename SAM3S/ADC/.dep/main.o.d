@@ -73,16 +73,7 @@ build/obj/main.o: main.c \
  /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/config.h \
  /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/ieeefp.h \
  /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/hal/platforms/AT91SAM3S/pio.h \
- /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/hal/platforms/AT91SAM3S/pmc.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/stdlib.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/reent.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_types.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_types.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/lock.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/cdefs.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/stdlib.h \
- /opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/alloca.h
+ /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/hal/platforms/AT91SAM3S/pmc.h
 
 /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/kernel/include/ch.h:
 
@@ -235,21 +226,3 @@ mcuconf.h:
 /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/hal/platforms/AT91SAM3S/pio.h:
 
 /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/hal/platforms/AT91SAM3S/pmc.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/stdlib.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/reent.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_types.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_types.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/lock.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/cdefs.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/stdlib.h:
-
-/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/alloca.h:

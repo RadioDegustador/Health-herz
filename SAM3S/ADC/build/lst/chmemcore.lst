@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmpLIfZ.s 			page 1
+ARM GAS  /tmp/ccDaunsa.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
   55 0020 00000000 		.word	.LANCHOR0
   56 0024 00000000 		.word	.LANCHOR1
   57              		.cfi_endproc
-ARM GAS  /tmp/ccmpLIfZ.s 			page 2
+ARM GAS  /tmp/ccDaunsa.s 			page 2
 
 
   58              	.LFE7:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  112              	.LBE8:
  113              	.LBE7:
  114              	.LBB9:
-ARM GAS  /tmp/ccmpLIfZ.s 			page 3
+ARM GAS  /tmp/ccDaunsa.s 			page 3
 
 
  115              		.loc 1 96 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  169 0016 9B18     		addls	r3, r3, r2
  170              	.LVL10:
  171 0018 2360     		strls	r3, [r4]
-ARM GAS  /tmp/ccmpLIfZ.s 			page 4
+ARM GAS  /tmp/ccDaunsa.s 			page 4
 
 
  172              		.loc 1 122 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  226 0000 00000000 		.space	4
  227              		.section	.bss.nextmem,"aw",%nobits
  228              		.align	2
-ARM GAS  /tmp/ccmpLIfZ.s 			page 5
+ARM GAS  /tmp/ccDaunsa.s 			page 5
 
 
  229              		.set	.LANCHOR0,. + 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  283 005b 02       		.byte	0x2
  284 005c 07       		.byte	0x7
  285 005d 0E000000 		.4byte	.LASF6
-ARM GAS  /tmp/ccmpLIfZ.s 			page 6
+ARM GAS  /tmp/ccDaunsa.s 			page 6
 
 
  286 0061 04       		.uleb128 0x4
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  340 00ca 70       		.byte	0x70
  341 00cb 28000000 		.4byte	0x28
  342 00cf 09       		.uleb128 0x9
-ARM GAS  /tmp/ccmpLIfZ.s 			page 7
+ARM GAS  /tmp/ccDaunsa.s 			page 7
 
 
  343 00d0 7000     		.ascii	"p\000"
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  397 014a 5C010000 		.4byte	0x15c
  398 014e 11       		.uleb128 0x11
  399 014f 746D7000 		.ascii	"tmp\000"
-ARM GAS  /tmp/ccmpLIfZ.s 			page 8
+ARM GAS  /tmp/ccDaunsa.s 			page 8
 
 
  400 0153 01       		.byte	0x1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  454 01cb 01       		.byte	0x1
  455 01cc 84       		.byte	0x84
  456 01cd 28000000 		.4byte	0x28
-ARM GAS  /tmp/ccmpLIfZ.s 			page 9
+ARM GAS  /tmp/ccDaunsa.s 			page 9
 
 
  457 01d1 00000000 		.4byte	.LFB10
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  511 0015 0B       		.uleb128 0xb
  512 0016 3E       		.uleb128 0x3e
  513 0017 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmpLIfZ.s 			page 10
+ARM GAS  /tmp/ccDaunsa.s 			page 10
 
 
  514 0018 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  568 004e 0B       		.uleb128 0xb
  569 004f 27       		.uleb128 0x27
  570 0050 19       		.uleb128 0x19
-ARM GAS  /tmp/ccmpLIfZ.s 			page 11
+ARM GAS  /tmp/ccDaunsa.s 			page 11
 
 
  571 0051 49       		.uleb128 0x49
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  625 0088 19       		.uleb128 0x19
  626 0089 01       		.uleb128 0x1
  627 008a 13       		.uleb128 0x13
-ARM GAS  /tmp/ccmpLIfZ.s 			page 12
+ARM GAS  /tmp/ccDaunsa.s 			page 12
 
 
  628 008b 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  682 00c1 9742     		.uleb128 0x2117
  683 00c3 19       		.uleb128 0x19
  684 00c4 01       		.uleb128 0x1
-ARM GAS  /tmp/ccmpLIfZ.s 			page 13
+ARM GAS  /tmp/ccDaunsa.s 			page 13
 
 
  685 00c5 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  739 00fb 0B       		.uleb128 0xb
  740 00fc 59       		.uleb128 0x59
  741 00fd 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmpLIfZ.s 			page 14
+ARM GAS  /tmp/ccDaunsa.s 			page 14
 
 
  742 00fe 01       		.uleb128 0x1
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  796 0135 0E       		.uleb128 0xe
  797 0136 3A       		.uleb128 0x3a
  798 0137 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmpLIfZ.s 			page 15
+ARM GAS  /tmp/ccDaunsa.s 			page 15
 
 
  799 0138 3B       		.uleb128 0x3b
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  853 0030 1E000000 		.4byte	.LVL4
  854 0034 0100     		.2byte	0x1
  855 0036 53       		.byte	0x53
-ARM GAS  /tmp/ccmpLIfZ.s 			page 16
+ARM GAS  /tmp/ccDaunsa.s 			page 16
 
 
  856 0037 1E000000 		.4byte	.LVL4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  910 00a3 07       		.uleb128 0x7
  911 00a4 09       		.byte	0x9
  912 00a5 F8       		.byte	0xf8
-ARM GAS  /tmp/ccmpLIfZ.s 			page 17
+ARM GAS  /tmp/ccDaunsa.s 			page 17
 
 
  913 00a6 1A       		.byte	0x1a
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  955      4320342E 
  955      392E3320 
  955      32303135 
-ARM GAS  /tmp/ccmpLIfZ.s 			page 18
+ARM GAS  /tmp/ccDaunsa.s 			page 18
 
 
  955      30353239 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  975 0164 5F5F7569 		.ascii	"__uint8_t\000"
  975      6E74385F 
  975      7400
-ARM GAS  /tmp/ccmpLIfZ.s 			page 19
+ARM GAS  /tmp/ccDaunsa.s 			page 19
 
 
  976              	.LASF12:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  1002 0233 73686F72 		.ascii	"short int\000"
  1002      7420696E 
  1002      7400
-ARM GAS  /tmp/ccmpLIfZ.s 			page 20
+ARM GAS  /tmp/ccDaunsa.s 			page 20
 
 
  1003              	.LASF0:
@@ -1156,27 +1156,27 @@ ARM GAS  /tmp/ccmpLIfZ.s 			page 1
  1008      61747573 
  1008      00
  1009              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccmpLIfZ.s 			page 21
+ARM GAS  /tmp/ccDaunsa.s 			page 21
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmemcore.c
-     /tmp/ccmpLIfZ.s:19     .text._core_init:00000000 $t
-     /tmp/ccmpLIfZ.s:25     .text._core_init:00000000 _core_init
-     /tmp/ccmpLIfZ.s:53     .text._core_init:00000018 $d
-     /tmp/ccmpLIfZ.s:61     .text.chCoreAlloc:00000000 $t
-     /tmp/ccmpLIfZ.s:67     .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/ccmpLIfZ.s:130    .text.chCoreAlloc:00000030 $d
-     /tmp/ccmpLIfZ.s:136    .text.chCoreAllocI:00000000 $t
-     /tmp/ccmpLIfZ.s:142    .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/ccmpLIfZ.s:185    .text.chCoreAllocI:00000024 $d
-     /tmp/ccmpLIfZ.s:191    .text.chCoreStatus:00000000 $t
-     /tmp/ccmpLIfZ.s:197    .text.chCoreStatus:00000000 chCoreStatus
-     /tmp/ccmpLIfZ.s:215    .text.chCoreStatus:0000000c $d
-     /tmp/ccmpLIfZ.s:221    .bss.endmem:00000000 $d
-     /tmp/ccmpLIfZ.s:225    .bss.endmem:00000000 endmem
-     /tmp/ccmpLIfZ.s:228    .bss.nextmem:00000000 $d
-     /tmp/ccmpLIfZ.s:232    .bss.nextmem:00000000 nextmem
+     /tmp/ccDaunsa.s:19     .text._core_init:00000000 $t
+     /tmp/ccDaunsa.s:25     .text._core_init:00000000 _core_init
+     /tmp/ccDaunsa.s:53     .text._core_init:00000018 $d
+     /tmp/ccDaunsa.s:61     .text.chCoreAlloc:00000000 $t
+     /tmp/ccDaunsa.s:67     .text.chCoreAlloc:00000000 chCoreAlloc
+     /tmp/ccDaunsa.s:130    .text.chCoreAlloc:00000030 $d
+     /tmp/ccDaunsa.s:136    .text.chCoreAllocI:00000000 $t
+     /tmp/ccDaunsa.s:142    .text.chCoreAllocI:00000000 chCoreAllocI
+     /tmp/ccDaunsa.s:185    .text.chCoreAllocI:00000024 $d
+     /tmp/ccDaunsa.s:191    .text.chCoreStatus:00000000 $t
+     /tmp/ccDaunsa.s:197    .text.chCoreStatus:00000000 chCoreStatus
+     /tmp/ccDaunsa.s:215    .text.chCoreStatus:0000000c $d
+     /tmp/ccDaunsa.s:221    .bss.endmem:00000000 $d
+     /tmp/ccDaunsa.s:225    .bss.endmem:00000000 endmem
+     /tmp/ccDaunsa.s:228    .bss.nextmem:00000000 $d
+     /tmp/ccDaunsa.s:232    .bss.nextmem:00000000 nextmem
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

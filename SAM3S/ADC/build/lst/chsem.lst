@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccE2BDTm.s 			page 1
+ARM GAS  /tmp/cc7nqJ9y.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
   55              		@ frame_needed = 0, uses_anonymous_args = 0
   56              	.LVL1:
   57 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  /tmp/ccE2BDTm.s 			page 2
+ARM GAS  /tmp/cc7nqJ9y.s 			page 2
 
 
   58              		.cfi_def_cfa_offset 16
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  112              		.size	chSemResetI, .-chSemResetI
  113              		.section	.text.chSemReset,"ax",%progbits
  114              		.align	2
-ARM GAS  /tmp/ccE2BDTm.s 			page 3
+ARM GAS  /tmp/cc7nqJ9y.s 			page 3
 
 
  115              		.p2align 4,,15
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  169              		@ frame_needed = 0, uses_anonymous_args = 0
  170              	.LVL13:
  171              	.LBB46:
-ARM GAS  /tmp/ccE2BDTm.s 			page 4
+ARM GAS  /tmp/cc7nqJ9y.s 			page 4
 
 
  172              		.loc 1 167 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  226              	.LBB52:
  227              		.loc 2 55 0
  228 0026 5968     		ldr	r1, [r3, #4]
-ARM GAS  /tmp/ccE2BDTm.s 			page 5
+ARM GAS  /tmp/cc7nqJ9y.s 			page 5
 
 
  229              		.loc 2 54 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  283 0006 8360     		str	r3, [r0, #8]
  284 0008 01DB     		blt	.L24
  285              		.loc 1 200 0
-ARM GAS  /tmp/ccE2BDTm.s 			page 6
+ARM GAS  /tmp/cc7nqJ9y.s 			page 6
 
 
  286 000a 0020     		movs	r0, #0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  340              		.p2align 4,,15
  341              		.global	chSemWaitTimeoutS
  342              		.thumb
-ARM GAS  /tmp/ccE2BDTm.s 			page 7
+ARM GAS  /tmp/cc7nqJ9y.s 			page 7
 
 
  343              		.thumb_func
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  397              		.cfi_remember_state
  398              		.cfi_restore 4
  399              		.cfi_def_cfa_offset 0
-ARM GAS  /tmp/ccE2BDTm.s 			page 8
+ARM GAS  /tmp/cc7nqJ9y.s 			page 8
 
 
  400              	.LBB74:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  454              	.LVL34:
  455              	.LBB76:
  456              		.loc 1 227 0
-ARM GAS  /tmp/ccE2BDTm.s 			page 9
+ARM GAS  /tmp/cc7nqJ9y.s 			page 9
 
 
  457 000c 0023     		movs	r3, #0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  511              	.LBE78:
  512              	.LBB79:
  513              	.LBB80:
-ARM GAS  /tmp/ccE2BDTm.s 			page 10
+ARM GAS  /tmp/cc7nqJ9y.s 			page 10
 
 
  514              		.loc 2 60 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  568 000c 7047     		bx	lr
  569              	.L47:
  570              	.LVL40:
-ARM GAS  /tmp/ccE2BDTm.s 			page 11
+ARM GAS  /tmp/cc7nqJ9y.s 			page 11
 
 
  571              	.LBB84:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  625              	chSemAddCounterI:
  626              	.LFB16:
  627              		.loc 1 334 0
-ARM GAS  /tmp/ccE2BDTm.s 			page 12
+ARM GAS  /tmp/cc7nqJ9y.s 			page 12
 
 
  628              		.cfi_startproc
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  682              	.LVL53:
  683              	.L48:
  684 002c 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/ccE2BDTm.s 			page 13
+ARM GAS  /tmp/cc7nqJ9y.s 			page 13
 
 
  685              		.cfi_endproc
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  739 0026 0023     		movs	r3, #0
  740              	@ 393 "/home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/kernel/src/chsem.c" 1
  741 0028 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/ccE2BDTm.s 			page 14
+ARM GAS  /tmp/cc7nqJ9y.s 			page 14
 
 
  742              	@ 0 "" 2
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  796              		.cfi_remember_state
  797              		.cfi_def_cfa_offset 8
  798              		@ sp needed
-ARM GAS  /tmp/ccE2BDTm.s 			page 15
+ARM GAS  /tmp/cc7nqJ9y.s 			page 15
 
 
  799 0050 10BD     		pop	{r4, pc}
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  853 001d 00000000 		.4byte	.Ldebug_line0
  854 0021 02       		.uleb128 0x2
  855 0022 04       		.byte	0x4
-ARM GAS  /tmp/ccE2BDTm.s 			page 16
+ARM GAS  /tmp/cc7nqJ9y.s 			page 16
 
 
  856 0023 05       		.byte	0x5
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  910 0089 64040000 		.4byte	.LASF12
  911 008d 04       		.byte	0x4
  912 008e 14       		.byte	0x14
-ARM GAS  /tmp/ccE2BDTm.s 			page 17
+ARM GAS  /tmp/cc7nqJ9y.s 			page 17
 
 
  913 008f 36000000 		.4byte	0x36
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  967 0107 2A       		.byte	0x2a
  968 0108 0C010000 		.4byte	0x10c
  969 010c 05       		.uleb128 0x5
-ARM GAS  /tmp/ccE2BDTm.s 			page 18
+ARM GAS  /tmp/cc7nqJ9y.s 			page 18
 
 
  970 010d 75030000 		.4byte	.LASF23
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1024 0179 15030000 		.4byte	.LASF32
  1025 017d 07       		.byte	0x7
  1026 017e 7D       		.byte	0x7d
-ARM GAS  /tmp/ccE2BDTm.s 			page 19
+ARM GAS  /tmp/cc7nqJ9y.s 			page 19
 
 
  1027 017f A9000000 		.4byte	0xa9
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1081 01eb CA000000 		.4byte	0xca
  1082 01ef 40       		.byte	0x40
  1083 01f0 06       		.uleb128 0x6
-ARM GAS  /tmp/ccE2BDTm.s 			page 20
+ARM GAS  /tmp/cc7nqJ9y.s 			page 20
 
 
  1084 01f1 73010000 		.4byte	.LASF41
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1138 025a 0A       		.uleb128 0xa
  1139 025b 04       		.byte	0x4
  1140 025c 05       		.uleb128 0x5
-ARM GAS  /tmp/ccE2BDTm.s 			page 21
+ARM GAS  /tmp/cc7nqJ9y.s 			page 21
 
 
  1141 025d 18040000 		.4byte	.LASF45
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1195 02cb 6C7200   		.ascii	"lr\000"
  1196 02ce 08       		.byte	0x8
  1197 02cf 1901     		.2byte	0x119
-ARM GAS  /tmp/ccE2BDTm.s 			page 22
+ARM GAS  /tmp/cc7nqJ9y.s 			page 22
 
 
  1198 02d1 4F020000 		.4byte	0x24f
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1252 033c 06       		.uleb128 0x6
  1253 033d AF020000 		.4byte	.LASF52
  1254 0341 09       		.byte	0x9
-ARM GAS  /tmp/ccE2BDTm.s 			page 23
+ARM GAS  /tmp/cc7nqJ9y.s 			page 23
 
 
  1255 0342 66       		.byte	0x66
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1309 03ae 2D       		.byte	0x2d
  1310 03af 24020000 		.4byte	0x224
  1311 03b3 00       		.byte	0
-ARM GAS  /tmp/ccE2BDTm.s 			page 24
+ARM GAS  /tmp/cc7nqJ9y.s 			page 24
 
 
  1312 03b4 06       		.uleb128 0x6
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1366 0420 08       		.byte	0x8
  1367 0421 B2030000 		.4byte	.LASF67
  1368 0425 09       		.uleb128 0x9
-ARM GAS  /tmp/ccE2BDTm.s 			page 25
+ARM GAS  /tmp/cc7nqJ9y.s 			page 25
 
 
  1369 0426 04       		.byte	0x4
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1423 0495 04       		.byte	0x4
  1424 0496 91030000 		.4byte	0x391
  1425 049a 15       		.uleb128 0x15
-ARM GAS  /tmp/ccE2BDTm.s 			page 26
+ARM GAS  /tmp/cc7nqJ9y.s 			page 26
 
 
  1426 049b C3030000 		.4byte	.LASF69
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1480 050b 56       		.byte	0x56
  1481 050c F6000000 		.4byte	0xf6
  1482 0510 01       		.uleb128 0x1
-ARM GAS  /tmp/ccE2BDTm.s 			page 27
+ARM GAS  /tmp/cc7nqJ9y.s 			page 27
 
 
  1483 0511 51       		.byte	0x51
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1537 058f 00000000 		.4byte	.LFB8
  1538 0593 18000000 		.4byte	.LFE8-.LFB8
  1539 0597 01       		.uleb128 0x1
-ARM GAS  /tmp/ccE2BDTm.s 			page 28
+ARM GAS  /tmp/cc7nqJ9y.s 			page 28
 
 
  1540 0598 9C       		.byte	0x9c
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1594 0607 01       		.uleb128 0x1
  1595 0608 50       		.byte	0x50
  1596 0609 00       		.byte	0
-ARM GAS  /tmp/ccE2BDTm.s 			page 29
+ARM GAS  /tmp/cc7nqJ9y.s 			page 29
 
 
  1597 060a 1F       		.uleb128 0x1f
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1651 0690 57040000 		.4byte	0x457
  1652 0694 26000000 		.4byte	.LBB51
  1653 0698 0A000000 		.4byte	.LBE51-.LBB51
-ARM GAS  /tmp/ccE2BDTm.s 			page 30
+ARM GAS  /tmp/cc7nqJ9y.s 			page 30
 
 
  1654 069c 01       		.byte	0x1
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1708 0717 2E070000 		.4byte	0x72e
  1709 071b 1C       		.uleb128 0x1c
  1710 071c 6D040000 		.4byte	0x46d
-ARM GAS  /tmp/ccE2BDTm.s 			page 31
+ARM GAS  /tmp/cc7nqJ9y.s 			page 31
 
 
  1711 0720 25020000 		.4byte	.LLST14
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1765 07a8 01       		.uleb128 0x1
  1766 07a9 50       		.byte	0x50
  1767 07aa 01       		.uleb128 0x1
-ARM GAS  /tmp/ccE2BDTm.s 			page 32
+ARM GAS  /tmp/cc7nqJ9y.s 			page 32
 
 
  1768 07ab 33       		.byte	0x33
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1822 0825 01       		.uleb128 0x1
  1823 0826 53       		.byte	0x53
  1824 0827 00       		.byte	0
-ARM GAS  /tmp/ccE2BDTm.s 			page 33
+ARM GAS  /tmp/cc7nqJ9y.s 			page 33
 
 
  1825 0828 27       		.uleb128 0x27
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1879 0897 01       		.uleb128 0x1
  1880 0898 53       		.byte	0x53
  1881 0899 00       		.byte	0
-ARM GAS  /tmp/ccE2BDTm.s 			page 34
+ARM GAS  /tmp/cc7nqJ9y.s 			page 34
 
 
  1882 089a 31       		.uleb128 0x31
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1936 0917 B0000000 		.4byte	.Ldebug_ranges0+0xb0
  1937 091b 01       		.byte	0x1
  1938 091c 3B01     		.2byte	0x13b
-ARM GAS  /tmp/ccE2BDTm.s 			page 35
+ARM GAS  /tmp/cc7nqJ9y.s 			page 35
 
 
  1939 091e 3B090000 		.4byte	0x93b
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  1993 09a9 00       		.byte	0
  1994 09aa 1F       		.uleb128 0x1f
  1995 09ab 26000000 		.4byte	.LVL50
-ARM GAS  /tmp/ccE2BDTm.s 			page 36
+ARM GAS  /tmp/cc7nqJ9y.s 			page 36
 
 
  1996 09af D10A0000 		.4byte	0xad1
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2050 0a33 30000000 		.4byte	.LBB97
  2051 0a37 18000000 		.4byte	.LBE97-.LBB97
  2052 0a3b 860A0000 		.4byte	0xa86
-ARM GAS  /tmp/ccE2BDTm.s 			page 37
+ARM GAS  /tmp/cc7nqJ9y.s 			page 37
 
 
  2053 0a3f 34       		.uleb128 0x34
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2107 0ac6 35       		.uleb128 0x35
  2108 0ac7 5E040000 		.4byte	.LASF87
  2109 0acb 09       		.byte	0x9
-ARM GAS  /tmp/ccE2BDTm.s 			page 38
+ARM GAS  /tmp/cc7nqJ9y.s 			page 38
 
 
  2110 0acc 72       		.byte	0x72
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2164 0008 0E       		.uleb128 0xe
  2165 0009 55       		.uleb128 0x55
  2166 000a 17       		.uleb128 0x17
-ARM GAS  /tmp/ccE2BDTm.s 			page 39
+ARM GAS  /tmp/cc7nqJ9y.s 			page 39
 
 
  2167 000b 11       		.uleb128 0x11
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2221 0041 00       		.byte	0
  2222 0042 00       		.byte	0
  2223 0043 06       		.uleb128 0x6
-ARM GAS  /tmp/ccE2BDTm.s 			page 40
+ARM GAS  /tmp/cc7nqJ9y.s 			page 40
 
 
  2224 0044 0D       		.uleb128 0xd
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2278 007a 0B       		.uleb128 0xb
  2279 007b 0B       		.uleb128 0xb
  2280 007c 00       		.byte	0
-ARM GAS  /tmp/ccE2BDTm.s 			page 41
+ARM GAS  /tmp/cc7nqJ9y.s 			page 41
 
 
  2281 007d 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2335 00b3 03       		.uleb128 0x3
  2336 00b4 0E       		.uleb128 0xe
  2337 00b5 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccE2BDTm.s 			page 42
+ARM GAS  /tmp/cc7nqJ9y.s 			page 42
 
 
  2338 00b6 0B       		.uleb128 0xb
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2392 00ec 0B       		.uleb128 0xb
  2393 00ed 49       		.uleb128 0x49
  2394 00ee 13       		.uleb128 0x13
-ARM GAS  /tmp/ccE2BDTm.s 			page 43
+ARM GAS  /tmp/cc7nqJ9y.s 			page 43
 
 
  2395 00ef 00       		.byte	0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2449 0125 2E       		.uleb128 0x2e
  2450 0126 01       		.byte	0x1
  2451 0127 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccE2BDTm.s 			page 44
+ARM GAS  /tmp/cc7nqJ9y.s 			page 44
 
 
  2452 0128 19       		.uleb128 0x19
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2506 015f 03       		.uleb128 0x3
  2507 0160 08       		.uleb128 0x8
  2508 0161 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccE2BDTm.s 			page 45
+ARM GAS  /tmp/cc7nqJ9y.s 			page 45
 
 
  2509 0162 0B       		.uleb128 0xb
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2563 019a 11       		.uleb128 0x11
  2564 019b 01       		.uleb128 0x1
  2565 019c 31       		.uleb128 0x31
-ARM GAS  /tmp/ccE2BDTm.s 			page 46
+ARM GAS  /tmp/cc7nqJ9y.s 			page 46
 
 
  2566 019d 13       		.uleb128 0x13
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2620 01d8 03       		.uleb128 0x3
  2621 01d9 0E       		.uleb128 0xe
  2622 01da 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccE2BDTm.s 			page 47
+ARM GAS  /tmp/cc7nqJ9y.s 			page 47
 
 
  2623 01db 0B       		.uleb128 0xb
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2677 0214 28       		.uleb128 0x28
  2678 0215 2E       		.uleb128 0x2e
  2679 0216 01       		.byte	0x1
-ARM GAS  /tmp/ccE2BDTm.s 			page 48
+ARM GAS  /tmp/cc7nqJ9y.s 			page 48
 
 
  2680 0217 31       		.uleb128 0x31
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2734 0251 3A       		.uleb128 0x3a
  2735 0252 0B       		.uleb128 0xb
  2736 0253 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccE2BDTm.s 			page 49
+ARM GAS  /tmp/cc7nqJ9y.s 			page 49
 
 
  2737 0254 0B       		.uleb128 0xb
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2791 028b 3B       		.uleb128 0x3b
  2792 028c 05       		.uleb128 0x5
  2793 028d 49       		.uleb128 0x49
-ARM GAS  /tmp/ccE2BDTm.s 			page 50
+ARM GAS  /tmp/cc7nqJ9y.s 			page 50
 
 
  2794 028e 13       		.uleb128 0x13
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2848 02c7 19       		.uleb128 0x19
  2849 02c8 49       		.uleb128 0x49
  2850 02c9 13       		.uleb128 0x13
-ARM GAS  /tmp/ccE2BDTm.s 			page 51
+ARM GAS  /tmp/cc7nqJ9y.s 			page 51
 
 
  2851 02ca 11       		.uleb128 0x11
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2905 0301 0B       		.uleb128 0xb
  2906 0302 27       		.uleb128 0x27
  2907 0303 19       		.uleb128 0x19
-ARM GAS  /tmp/ccE2BDTm.s 			page 52
+ARM GAS  /tmp/cc7nqJ9y.s 			page 52
 
 
  2908 0304 49       		.uleb128 0x49
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  2962 033a 3F       		.uleb128 0x3f
  2963 033b 19       		.uleb128 0x19
  2964 033c 03       		.uleb128 0x3
-ARM GAS  /tmp/ccE2BDTm.s 			page 53
+ARM GAS  /tmp/cc7nqJ9y.s 			page 53
 
 
  2965 033d 0E       		.uleb128 0xe
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3019 0062 75       		.byte	0x75
  3020 0063 7F       		.sleb128 -1
  3021 0064 9F       		.byte	0x9f
-ARM GAS  /tmp/ccE2BDTm.s 			page 54
+ARM GAS  /tmp/cc7nqJ9y.s 			page 54
 
 
  3022 0065 24000000 		.4byte	.LVL8
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3076 00ef 1A000000 		.4byte	.LVL16
  3077 00f3 0400     		.2byte	0x4
  3078 00f5 F3       		.byte	0xf3
-ARM GAS  /tmp/ccE2BDTm.s 			page 55
+ARM GAS  /tmp/cc7nqJ9y.s 			page 55
 
 
  3079 00f6 01       		.uleb128 0x1
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3133 0175 33000000 		.4byte	.LVL20-1
  3134 0179 44000000 		.4byte	.LFE10
  3135 017d 0400     		.2byte	0x4
-ARM GAS  /tmp/ccE2BDTm.s 			page 56
+ARM GAS  /tmp/cc7nqJ9y.s 			page 56
 
 
  3136 017f F3       		.byte	0xf3
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3190 01fc 00000000 		.4byte	0
  3191 0200 00000000 		.4byte	0
  3192              	.LLST13:
-ARM GAS  /tmp/ccE2BDTm.s 			page 57
+ARM GAS  /tmp/cc7nqJ9y.s 			page 57
 
 
  3193 0204 10000000 		.4byte	.LVL24
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3247 0288 00000000 		.4byte	0
  3248 028c 00000000 		.4byte	0
  3249              	.LLST17:
-ARM GAS  /tmp/ccE2BDTm.s 			page 58
+ARM GAS  /tmp/cc7nqJ9y.s 			page 58
 
 
  3250 0290 00000000 		.4byte	.LVL28
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3304 0315 0B000000 		.4byte	.LVL34-1
  3305 0319 0100     		.2byte	0x1
  3306 031b 50       		.byte	0x50
-ARM GAS  /tmp/ccE2BDTm.s 			page 59
+ARM GAS  /tmp/cc7nqJ9y.s 			page 59
 
 
  3307 031c 0B000000 		.4byte	.LVL34-1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3361 039c 00000000 		.4byte	0
  3362              	.LLST25:
  3363 03a0 1E000000 		.4byte	.LVL37
-ARM GAS  /tmp/ccE2BDTm.s 			page 60
+ARM GAS  /tmp/cc7nqJ9y.s 			page 60
 
 
  3364 03a4 29000000 		.4byte	.LVL38-1
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3418 042d 2C000000 		.4byte	.LVL53
  3419 0431 0100     		.2byte	0x1
  3420 0433 55       		.byte	0x55
-ARM GAS  /tmp/ccE2BDTm.s 			page 61
+ARM GAS  /tmp/cc7nqJ9y.s 			page 61
 
 
  3421 0434 2C000000 		.4byte	.LVL53
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3475 04bd F3       		.byte	0xf3
  3476 04be 01       		.uleb128 0x1
  3477 04bf 50       		.byte	0x50
-ARM GAS  /tmp/ccE2BDTm.s 			page 62
+ARM GAS  /tmp/cc7nqJ9y.s 			page 62
 
 
  3478 04c0 9F       		.byte	0x9f
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3532 0546 50       		.byte	0x50
  3533 0547 00000000 		.4byte	0
  3534 054b 00000000 		.4byte	0
-ARM GAS  /tmp/ccE2BDTm.s 			page 63
+ARM GAS  /tmp/cc7nqJ9y.s 			page 63
 
 
  3535              	.LLST36:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3589              	.Ldebug_ranges0:
  3590 0000 12000000 		.4byte	.LBB32
  3591 0004 14000000 		.4byte	.LBE32
-ARM GAS  /tmp/ccE2BDTm.s 			page 64
+ARM GAS  /tmp/cc7nqJ9y.s 			page 64
 
 
  3592 0008 16000000 		.4byte	.LBB35
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3646 00e0 00000000 		.4byte	0
  3647 00e4 00000000 		.4byte	0
  3648 00e8 32000000 		.4byte	.LBB98
-ARM GAS  /tmp/ccE2BDTm.s 			page 65
+ARM GAS  /tmp/cc7nqJ9y.s 			page 65
 
 
  3649 00ec 34000000 		.4byte	.LBE98
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3690      6E74385F 
  3690      7400
  3691              	.LASF84:
-ARM GAS  /tmp/ccE2BDTm.s 			page 66
+ARM GAS  /tmp/cc7nqJ9y.s 			page 66
 
 
  3692 0031 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3710 0168 63685365 		.ascii	"chSemWaitS\000"
  3710      6D576169 
  3710      745300
-ARM GAS  /tmp/ccE2BDTm.s 			page 67
+ARM GAS  /tmp/cc7nqJ9y.s 			page 67
 
 
  3711              	.LASF41:
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3738      7454696D 
  3738      656F7574 
  3738      00
-ARM GAS  /tmp/ccE2BDTm.s 			page 68
+ARM GAS  /tmp/cc7nqJ9y.s 			page 68
 
 
  3739              	.LASF9:
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3768      61647351 
  3768      75657565 
  3768      00
-ARM GAS  /tmp/ccE2BDTm.s 			page 69
+ARM GAS  /tmp/cc7nqJ9y.s 			page 69
 
 
  3769              	.LASF70:
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3800      732F4465 
  3800      736B746F 
  3801 0350 64652F65 		.ascii	"de/ext/ChibiOS/os/kernel/src/chsem.c\000"
-ARM GAS  /tmp/ccE2BDTm.s 			page 70
+ARM GAS  /tmp/cc7nqJ9y.s 			page 70
 
 
  3801      78742F43 
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3827      7400
  3828              	.LASF76:
  3829 03fb 63685365 		.ascii	"chSemWait\000"
-ARM GAS  /tmp/ccE2BDTm.s 			page 71
+ARM GAS  /tmp/cc7nqJ9y.s 			page 71
 
 
  3829      6D576169 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3858              	.LASF53:
  3859 048f 725F7072 		.ascii	"r_preempt\000"
  3859      65656D70 
-ARM GAS  /tmp/ccE2BDTm.s 			page 72
+ARM GAS  /tmp/cc7nqJ9y.s 			page 72
 
 
  3859      7400
@@ -4277,37 +4277,37 @@ ARM GAS  /tmp/ccE2BDTm.s 			page 1
  3867      6D496E69 
  3867      7400
  3868              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccE2BDTm.s 			page 73
+ARM GAS  /tmp/cc7nqJ9y.s 			page 73
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chsem.c
-     /tmp/ccE2BDTm.s:19     .text.chSemInit:00000000 $t
-     /tmp/ccE2BDTm.s:25     .text.chSemInit:00000000 chSemInit
-     /tmp/ccE2BDTm.s:44     .text.chSemResetI:00000000 $t
-     /tmp/ccE2BDTm.s:50     .text.chSemResetI:00000000 chSemResetI
-     /tmp/ccE2BDTm.s:114    .text.chSemReset:00000000 $t
-     /tmp/ccE2BDTm.s:120    .text.chSemReset:00000000 chSemReset
-     /tmp/ccE2BDTm.s:158    .text.chSemWait:00000000 $t
-     /tmp/ccE2BDTm.s:164    .text.chSemWait:00000000 chSemWait
-     /tmp/ccE2BDTm.s:261    .text.chSemWait:00000040 $d
-     /tmp/ccE2BDTm.s:266    .text.chSemWaitS:00000000 $t
-     /tmp/ccE2BDTm.s:272    .text.chSemWaitS:00000000 chSemWaitS
-     /tmp/ccE2BDTm.s:332    .text.chSemWaitS:00000030 $d
-     /tmp/ccE2BDTm.s:339    .text.chSemWaitTimeoutS:00000000 $t
-     /tmp/ccE2BDTm.s:345    .text.chSemWaitTimeoutS:00000000 chSemWaitTimeoutS
-     /tmp/ccE2BDTm.s:422    .text.chSemWaitTimeoutS:0000003c $d
-     /tmp/ccE2BDTm.s:427    .text.chSemWaitTimeout:00000000 $t
-     /tmp/ccE2BDTm.s:433    .text.chSemWaitTimeout:00000000 chSemWaitTimeout
-     /tmp/ccE2BDTm.s:469    .text.chSemSignal:00000000 $t
-     /tmp/ccE2BDTm.s:475    .text.chSemSignal:00000000 chSemSignal
-     /tmp/ccE2BDTm.s:545    .text.chSemSignalI:00000000 $t
-     /tmp/ccE2BDTm.s:551    .text.chSemSignalI:00000000 chSemSignalI
-     /tmp/ccE2BDTm.s:619    .text.chSemAddCounterI:00000000 $t
-     /tmp/ccE2BDTm.s:625    .text.chSemAddCounterI:00000000 chSemAddCounterI
-     /tmp/ccE2BDTm.s:689    .text.chSemSignalWait:00000000 $t
-     /tmp/ccE2BDTm.s:695    .text.chSemSignalWait:00000000 chSemSignalWait
-     /tmp/ccE2BDTm.s:826    .text.chSemSignalWait:00000068 $d
+     /tmp/cc7nqJ9y.s:19     .text.chSemInit:00000000 $t
+     /tmp/cc7nqJ9y.s:25     .text.chSemInit:00000000 chSemInit
+     /tmp/cc7nqJ9y.s:44     .text.chSemResetI:00000000 $t
+     /tmp/cc7nqJ9y.s:50     .text.chSemResetI:00000000 chSemResetI
+     /tmp/cc7nqJ9y.s:114    .text.chSemReset:00000000 $t
+     /tmp/cc7nqJ9y.s:120    .text.chSemReset:00000000 chSemReset
+     /tmp/cc7nqJ9y.s:158    .text.chSemWait:00000000 $t
+     /tmp/cc7nqJ9y.s:164    .text.chSemWait:00000000 chSemWait
+     /tmp/cc7nqJ9y.s:261    .text.chSemWait:00000040 $d
+     /tmp/cc7nqJ9y.s:266    .text.chSemWaitS:00000000 $t
+     /tmp/cc7nqJ9y.s:272    .text.chSemWaitS:00000000 chSemWaitS
+     /tmp/cc7nqJ9y.s:332    .text.chSemWaitS:00000030 $d
+     /tmp/cc7nqJ9y.s:339    .text.chSemWaitTimeoutS:00000000 $t
+     /tmp/cc7nqJ9y.s:345    .text.chSemWaitTimeoutS:00000000 chSemWaitTimeoutS
+     /tmp/cc7nqJ9y.s:422    .text.chSemWaitTimeoutS:0000003c $d
+     /tmp/cc7nqJ9y.s:427    .text.chSemWaitTimeout:00000000 $t
+     /tmp/cc7nqJ9y.s:433    .text.chSemWaitTimeout:00000000 chSemWaitTimeout
+     /tmp/cc7nqJ9y.s:469    .text.chSemSignal:00000000 $t
+     /tmp/cc7nqJ9y.s:475    .text.chSemSignal:00000000 chSemSignal
+     /tmp/cc7nqJ9y.s:545    .text.chSemSignalI:00000000 $t
+     /tmp/cc7nqJ9y.s:551    .text.chSemSignalI:00000000 chSemSignalI
+     /tmp/cc7nqJ9y.s:619    .text.chSemAddCounterI:00000000 $t
+     /tmp/cc7nqJ9y.s:625    .text.chSemAddCounterI:00000000 chSemAddCounterI
+     /tmp/cc7nqJ9y.s:689    .text.chSemSignalWait:00000000 $t
+     /tmp/cc7nqJ9y.s:695    .text.chSemSignalWait:00000000 chSemSignalWait
+     /tmp/cc7nqJ9y.s:826    .text.chSemSignalWait:00000068 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

@@ -6,7 +6,8 @@
 #include "pio.h"
 #include "pmc.h"
 #include "board.h"
-#include "stdlib.h"
+//#include "stdlib.h"
+#include "stddef.h"
 
 
 #define PLL_A            0           /* PLL A */
@@ -27,6 +28,30 @@ static msg_t Thread1(void *arg) {
 }
 
 
+/*Función deshonrosamente copiada*/
+void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
+              const double Kernel[/* KernelLen */], size_t KernelLen,
+              double Result[/* SignalLen + KernelLen - 1 */])
+{
+  size_t n;
+
+  for (n = 0; n < SignalLen + KernelLen - 1; n++)
+  {
+    size_t kmin, kmax, k;
+
+    Result[n] = 0;
+
+    kmin = (n >= KernelLen - 1) ? n - (KernelLen - 1) : 0;
+    kmax = (n < SignalLen - 1) ? n : SignalLen - 1;
+
+    for (k = kmin; k <= kmax; k++)
+    {
+      Result[n] += Signal[k] * Kernel[n - k];
+    }
+  }
+};
+
+double h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.00183627497553400, 0.187348576956375, 0.278006552946558, 0.187348576956375, -0.00183627497553400, -0.132008742782508, -0.131643055995946, -0.0593341497149129};
 
 
 /*
@@ -34,7 +59,7 @@ static msg_t Thread1(void *arg) {
  */
 int main(void) {
 
-   int ADC_Val[1001];
+   double ADC_Val[1001];
    short i;
    i = 0;
    
@@ -82,5 +107,9 @@ int main(void) {
     	i++;
     }	
    //}
+   double* salida=0;
+   
+   convolve(ADC_Val,1000,h,11,salida);
+   
    return(0);
 }

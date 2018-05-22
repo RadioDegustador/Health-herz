@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cch4zee2.s 			page 1
+ARM GAS  /tmp/ccWWLth1.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
   55 001c 18BF     		it	ne
   56 001e 0121     		movne	r1, #1
   57 0020 0120     		movs	r0, #1
-ARM GAS  /tmp/cch4zee2.s 			page 2
+ARM GAS  /tmp/ccWWLth1.s 			page 2
 
 
   58              	.LVL3:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  112              		.loc 1 104 0
  113 0068 1021     		movs	r1, #16
  114              		.loc 1 103 0
-ARM GAS  /tmp/cch4zee2.s 			page 3
+ARM GAS  /tmp/ccWWLth1.s 			page 3
 
 
  115 006a 0546     		mov	r5, r0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  169 00b8 6148     		ldr	r0, .L9
  170              	.LVL31:
  171 00ba FFF7FEFF 		bl	chHeapAlloc
-ARM GAS  /tmp/cch4zee2.s 			page 4
+ARM GAS  /tmp/ccWWLth1.s 			page 4
 
 
  172              	.LVL32:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  226 0114 0520     		movs	r0, #5
  227 0116 4909     		lsrs	r1, r1, #5
  228 0118 FFF7FEFF 		bl	_test_assert
-ARM GAS  /tmp/cch4zee2.s 			page 5
+ARM GAS  /tmp/ccWWLth1.s 			page 5
 
 
  229              	.LVL46:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  283 0176 0028     		cmp	r0, #0
  284 0178 7FF457AF 		bne	.L1
  285              		.loc 1 134 0
-ARM GAS  /tmp/cch4zee2.s 			page 6
+ARM GAS  /tmp/ccWWLth1.s 			page 6
 
 
  286 017c 1021     		movs	r1, #16
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  340 01ce 4141     		adcs	r1, r1, r0
  341 01d0 0920     		movs	r0, #9
  342 01d2 FFF7FEFF 		bl	_test_assert
-ARM GAS  /tmp/cch4zee2.s 			page 7
+ARM GAS  /tmp/ccWWLth1.s 			page 7
 
 
  343              	.LVL71:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  397              	.LVL81:
  398 0238 F7E6     		b	.L1
  399              	.LVL82:
-ARM GAS  /tmp/cch4zee2.s 			page 8
+ARM GAS  /tmp/ccWWLth1.s 			page 8
 
 
  400              	.L5:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  450      20616E64 
  451              		.section	.rodata.testheap1,"a",%progbits
  452              		.align	2
-ARM GAS  /tmp/cch4zee2.s 			page 9
+ARM GAS  /tmp/ccWWLth1.s 			page 9
 
 
  453              		.type	testheap1, %object
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  503 0034 04       		.byte	0x4
  504 0035 07       		.byte	0x7
  505 0036 F3010000 		.4byte	.LASF0
-ARM GAS  /tmp/cch4zee2.s 			page 10
+ARM GAS  /tmp/ccWWLth1.s 			page 10
 
 
  506 003a 04       		.uleb128 0x4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  560 00a3 04       		.byte	0x4
  561 00a4 14       		.byte	0x14
  562 00a5 41000000 		.4byte	0x41
-ARM GAS  /tmp/cch4zee2.s 			page 11
+ARM GAS  /tmp/ccWWLth1.s 			page 11
 
 
  563 00a9 03       		.uleb128 0x3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  617 011e B4000000 		.4byte	0xb4
  618 0122 03       		.uleb128 0x3
  619 0123 A4030000 		.4byte	.LASF26
-ARM GAS  /tmp/cch4zee2.s 			page 12
+ARM GAS  /tmp/ccWWLth1.s 			page 12
 
 
  620 0127 06       		.byte	0x6
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  674 0193 79       		.byte	0x79
  675 0194 E0000000 		.4byte	0xe0
  676 0198 1C       		.byte	0x1c
-ARM GAS  /tmp/cch4zee2.s 			page 13
+ARM GAS  /tmp/ccWWLth1.s 			page 13
 
 
  677 0199 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  731 0205 06       		.uleb128 0x6
  732 0206 FC030000 		.4byte	.LASF43
  733 020a 07       		.byte	0x7
-ARM GAS  /tmp/cch4zee2.s 			page 14
+ARM GAS  /tmp/ccWWLth1.s 			page 14
 
 
  734 020b CE       		.byte	0xce
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  788 0271 D6010000 		.4byte	.LASF47
  789 0275 08       		.byte	0x8
  790 0276 D7       		.byte	0xd7
-ARM GAS  /tmp/cch4zee2.s 			page 15
+ARM GAS  /tmp/ccWWLth1.s 			page 15
 
 
  791 0277 7B020000 		.4byte	0x27b
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  845 02e4 70020000 		.4byte	0x270
  846 02e8 18       		.byte	0x18
  847 02e9 0B       		.uleb128 0xb
-ARM GAS  /tmp/cch4zee2.s 			page 16
+ARM GAS  /tmp/ccWWLth1.s 			page 16
 
 
  848 02ea 72313100 		.ascii	"r11\000"
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  902 0359 09       		.byte	0x9
  903 035a 31       		.byte	0x31
  904 035b 61030000 		.4byte	0x361
-ARM GAS  /tmp/cch4zee2.s 			page 17
+ARM GAS  /tmp/ccWWLth1.s 			page 17
 
 
  905 035f 0C       		.byte	0xc
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  959 03ce 10       		.uleb128 0x10
  960 03cf 04       		.byte	0x4
  961 03d0 0B       		.byte	0xb
-ARM GAS  /tmp/cch4zee2.s 			page 18
+ARM GAS  /tmp/ccWWLth1.s 			page 18
 
 
  962 03d1 3C       		.byte	0x3c
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1016 0439 10       		.uleb128 0x10
  1017 043a 04       		.byte	0x4
  1018 043b 07       		.byte	0x7
-ARM GAS  /tmp/cch4zee2.s 			page 19
+ARM GAS  /tmp/ccWWLth1.s 			page 19
 
 
  1019 043c 90       		.byte	0x90
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1073 04ab 12020000 		.4byte	.LASF74
  1074 04af 0C       		.byte	0xc
  1075 04b0 49       		.byte	0x49
-ARM GAS  /tmp/cch4zee2.s 			page 20
+ARM GAS  /tmp/ccWWLth1.s 			page 20
 
 
  1076 04b1 C4040000 		.4byte	0x4c4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1130 051d 25       		.byte	0x25
  1131 051e 00       		.byte	0
  1132 051f 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cch4zee2.s 			page 21
+ARM GAS  /tmp/ccWWLth1.s 			page 21
 
 
  1133 0520 2A040000 		.4byte	.LASF77
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1187 0597 28000000 		.4byte	0x28
  1188 059b 02       		.uleb128 0x2
  1189 059c 91       		.byte	0x91
-ARM GAS  /tmp/cch4zee2.s 			page 22
+ARM GAS  /tmp/ccWWLth1.s 			page 22
 
 
  1190 059d 68       		.sleb128 -24
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1244 05f9 75       		.byte	0x75
  1245 05fa 00       		.sleb128 0
  1246 05fb 30       		.byte	0x30
-ARM GAS  /tmp/cch4zee2.s 			page 23
+ARM GAS  /tmp/ccWWLth1.s 			page 23
 
 
  1247 05fc 2E       		.byte	0x2e
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1301 0658 01       		.uleb128 0x1
  1302 0659 51       		.byte	0x51
  1303 065a 02       		.uleb128 0x2
-ARM GAS  /tmp/cch4zee2.s 			page 24
+ARM GAS  /tmp/ccWWLth1.s 			page 24
 
 
  1304 065b 91       		.byte	0x91
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1358 06b5 03       		.byte	0x3
  1359 06b6 00000000 		.4byte	.LANCHOR0
  1360 06ba 00       		.byte	0
-ARM GAS  /tmp/cch4zee2.s 			page 25
+ARM GAS  /tmp/ccWWLth1.s 			page 25
 
 
  1361 06bb 20       		.uleb128 0x20
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1415 0721 21       		.uleb128 0x21
  1416 0722 01       		.uleb128 0x1
  1417 0723 50       		.byte	0x50
-ARM GAS  /tmp/cch4zee2.s 			page 26
+ARM GAS  /tmp/ccWWLth1.s 			page 26
 
 
  1418 0724 01       		.uleb128 0x1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1472 0784 20       		.uleb128 0x20
  1473 0785 C8000000 		.4byte	.LVL34
  1474 0789 B40B0000 		.4byte	0xbb4
-ARM GAS  /tmp/cch4zee2.s 			page 27
+ARM GAS  /tmp/ccWWLth1.s 			page 27
 
 
  1475 078d 98070000 		.4byte	0x798
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1529 07ed 41       		.byte	0x41
  1530 07ee 21       		.uleb128 0x21
  1531 07ef 01       		.uleb128 0x1
-ARM GAS  /tmp/cch4zee2.s 			page 28
+ARM GAS  /tmp/ccWWLth1.s 			page 28
 
 
  1532 07f0 50       		.byte	0x50
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1586 0853 01       		.uleb128 0x1
  1587 0854 50       		.byte	0x50
  1588 0855 01       		.uleb128 0x1
-ARM GAS  /tmp/cch4zee2.s 			page 29
+ARM GAS  /tmp/ccWWLth1.s 			page 29
 
 
  1589 0856 35       		.byte	0x35
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1643 08b3 9A0B0000 		.4byte	0xb9a
  1644 08b7 C1080000 		.4byte	0x8c1
  1645 08bb 21       		.uleb128 0x21
-ARM GAS  /tmp/cch4zee2.s 			page 30
+ARM GAS  /tmp/ccWWLth1.s 			page 30
 
 
  1646 08bc 01       		.uleb128 0x1
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1700 0919 30       		.byte	0x30
  1701 091a 29       		.byte	0x29
  1702 091b 21       		.uleb128 0x21
-ARM GAS  /tmp/cch4zee2.s 			page 31
+ARM GAS  /tmp/ccWWLth1.s 			page 31
 
 
  1703 091c 01       		.uleb128 0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1757 097c 51       		.byte	0x51
  1758 097d 02       		.uleb128 0x2
  1759 097e 7D       		.byte	0x7d
-ARM GAS  /tmp/cch4zee2.s 			page 32
+ARM GAS  /tmp/ccWWLth1.s 			page 32
 
 
  1760 097f 00       		.sleb128 0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1814 09dc 74       		.byte	0x74
  1815 09dd 00       		.sleb128 0
  1816 09de 00       		.byte	0
-ARM GAS  /tmp/cch4zee2.s 			page 33
+ARM GAS  /tmp/ccWWLth1.s 			page 33
 
 
  1817 09df 20       		.uleb128 0x20
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1871 0a42 00       		.byte	0
  1872 0a43 20       		.uleb128 0x20
  1873 0a44 F6010000 		.4byte	.LVL76
-ARM GAS  /tmp/cch4zee2.s 			page 34
+ARM GAS  /tmp/ccWWLth1.s 			page 34
 
 
  1874 0a48 600B0000 		.4byte	0xb60
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1928 0aa5 22020000 		.4byte	.LVL80
  1929 0aa9 9A0B0000 		.4byte	0xb9a
  1930 0aad B70A0000 		.4byte	0xab7
-ARM GAS  /tmp/cch4zee2.s 			page 35
+ARM GAS  /tmp/ccWWLth1.s 			page 35
 
 
  1931 0ab1 21       		.uleb128 0x21
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  1985 0b0f 1F050000 		.4byte	0x51f
  1986 0b13 26       		.uleb128 0x26
  1987 0b14 77020000 		.4byte	.LASF83
-ARM GAS  /tmp/cch4zee2.s 			page 36
+ARM GAS  /tmp/ccWWLth1.s 			page 36
 
 
  1988 0b18 01       		.byte	0x1
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2042 0b90 14040000 		.4byte	0x414
  2043 0b94 0F       		.uleb128 0xf
  2044 0b95 28000000 		.4byte	0x28
-ARM GAS  /tmp/cch4zee2.s 			page 37
+ARM GAS  /tmp/ccWWLth1.s 			page 37
 
 
  2045 0b99 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2099 0014 0B       		.uleb128 0xb
  2100 0015 0B       		.uleb128 0xb
  2101 0016 3E       		.uleb128 0x3e
-ARM GAS  /tmp/cch4zee2.s 			page 38
+ARM GAS  /tmp/ccWWLth1.s 			page 38
 
 
  2102 0017 0B       		.uleb128 0xb
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2156 004d 13       		.uleb128 0x13
  2157 004e 38       		.uleb128 0x38
  2158 004f 0B       		.uleb128 0xb
-ARM GAS  /tmp/cch4zee2.s 			page 39
+ARM GAS  /tmp/ccWWLth1.s 			page 39
 
 
  2159 0050 00       		.byte	0
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2213 0086 05       		.uleb128 0x5
  2214 0087 49       		.uleb128 0x49
  2215 0088 13       		.uleb128 0x13
-ARM GAS  /tmp/cch4zee2.s 			page 40
+ARM GAS  /tmp/ccWWLth1.s 			page 40
 
 
  2216 0089 38       		.uleb128 0x38
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2270 00bf 13       		.uleb128 0x13
  2271 00c0 00       		.byte	0
  2272 00c1 00       		.byte	0
-ARM GAS  /tmp/cch4zee2.s 			page 41
+ARM GAS  /tmp/ccWWLth1.s 			page 41
 
 
  2273 00c2 11       		.uleb128 0x11
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2327 00f8 00       		.byte	0
  2328 00f9 16       		.uleb128 0x16
  2329 00fa 13       		.uleb128 0x13
-ARM GAS  /tmp/cch4zee2.s 			page 42
+ARM GAS  /tmp/ccWWLth1.s 			page 42
 
 
  2330 00fb 01       		.byte	0x1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2384 0131 0B       		.uleb128 0xb
  2385 0132 01       		.uleb128 0x1
  2386 0133 13       		.uleb128 0x13
-ARM GAS  /tmp/cch4zee2.s 			page 43
+ARM GAS  /tmp/ccWWLth1.s 			page 43
 
 
  2387 0134 00       		.byte	0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2441 016b 3A       		.uleb128 0x3a
  2442 016c 0B       		.uleb128 0xb
  2443 016d 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cch4zee2.s 			page 44
+ARM GAS  /tmp/ccWWLth1.s 			page 44
 
 
  2444 016e 0B       		.uleb128 0xb
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2498 01b0 00       		.byte	0
  2499 01b1 00       		.byte	0
  2500 01b2 24       		.uleb128 0x24
-ARM GAS  /tmp/cch4zee2.s 			page 45
+ARM GAS  /tmp/ccWWLth1.s 			page 45
 
 
  2501 01b3 34       		.uleb128 0x34
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2555 01e9 0E       		.uleb128 0xe
  2556 01ea 3A       		.uleb128 0x3a
  2557 01eb 0B       		.uleb128 0xb
-ARM GAS  /tmp/cch4zee2.s 			page 46
+ARM GAS  /tmp/ccWWLth1.s 			page 46
 
 
  2558 01ec 3B       		.uleb128 0x3b
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2612 0222 19       		.uleb128 0x19
  2613 0223 03       		.uleb128 0x3
  2614 0224 0E       		.uleb128 0xe
-ARM GAS  /tmp/cch4zee2.s 			page 47
+ARM GAS  /tmp/ccWWLth1.s 			page 47
 
 
  2615 0225 3A       		.uleb128 0x3a
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2669 006e 2C010000 		.4byte	.LVL48
  2670 0072 2E010000 		.4byte	.LVL49
  2671 0076 0100     		.2byte	0x1
-ARM GAS  /tmp/cch4zee2.s 			page 48
+ARM GAS  /tmp/ccWWLth1.s 			page 48
 
 
  2672 0078 50       		.byte	0x50
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2726 010d 0100     		.2byte	0x1
  2727 010f 50       		.byte	0x50
  2728 0110 92010000 		.4byte	.LVL62
-ARM GAS  /tmp/cch4zee2.s 			page 49
+ARM GAS  /tmp/ccWWLth1.s 			page 49
 
 
  2729 0114 F0010000 		.4byte	.LVL74
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2779 0000 705F6D73 		.ascii	"p_msg\000"
  2779      6700
  2780              	.LASF2:
-ARM GAS  /tmp/cch4zee2.s 			page 50
+ARM GAS  /tmp/ccWWLth1.s 			page 50
 
 
  2781 0006 73697A65 		.ascii	"size_t\000"
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2800              	.LASF60:
  2801 0139 685F6672 		.ascii	"h_free\000"
  2801      656500
-ARM GAS  /tmp/cch4zee2.s 			page 51
+ARM GAS  /tmp/ccWWLth1.s 			page 51
 
 
  2802              	.LASF82:
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2833 01c3 705F6E65 		.ascii	"p_newer\000"
  2833      77657200 
  2834              	.LASF9:
-ARM GAS  /tmp/cch4zee2.s 			page 52
+ARM GAS  /tmp/ccWWLth1.s 			page 52
 
 
  2835 01cb 5F5F7569 		.ascii	"__uint32_t\000"
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2861      69737400 
  2862              	.LASF24:
  2863 025a 6576656E 		.ascii	"eventmask_t\000"
-ARM GAS  /tmp/cch4zee2.s 			page 53
+ARM GAS  /tmp/ccWWLth1.s 			page 53
 
 
  2863      746D6173 
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2888      735F7400 
  2889              	.LASF28:
  2890 0322 705F7072 		.ascii	"p_prev\000"
-ARM GAS  /tmp/cch4zee2.s 			page 54
+ARM GAS  /tmp/ccWWLth1.s 			page 54
 
 
  2890      657600
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2921              	.LASF71:
  2922 03b7 74657374 		.ascii	"testcase\000"
  2922      63617365 
-ARM GAS  /tmp/cch4zee2.s 			page 55
+ARM GAS  /tmp/ccWWLth1.s 			page 55
 
 
  2922      00
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2952 043e 75696E74 		.ascii	"uint8_t\000"
  2952      385F7400 
  2953              	.LASF81:
-ARM GAS  /tmp/cch4zee2.s 			page 56
+ARM GAS  /tmp/ccWWLth1.s 			page 56
 
 
  2954 0446 74657374 		.ascii	"test_heap\000"
@@ -3330,24 +3330,24 @@ ARM GAS  /tmp/cch4zee2.s 			page 1
  2968      72795F68 
  2968      65617000 
  2969              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cch4zee2.s 			page 57
+ARM GAS  /tmp/ccWWLth1.s 			page 57
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testheap.c
-     /tmp/cch4zee2.s:19     .text.heap1_execute:00000000 $t
-     /tmp/cch4zee2.s:24     .text.heap1_execute:00000000 heap1_execute
-     /tmp/cch4zee2.s:407    .text.heap1_execute:00000240 $d
-     /tmp/cch4zee2.s:412    .text.heap1_setup:00000000 $t
-     /tmp/cch4zee2.s:417    .text.heap1_setup:00000000 heap1_setup
-     /tmp/cch4zee2.s:433    .text.heap1_setup:0000000c $d
-     /tmp/cch4zee2.s:444    .rodata.patternheap:00000000 patternheap
-     /tmp/cch4zee2.s:455    .rodata.testheap1:00000000 testheap1
-     /tmp/cch4zee2.s:441    .rodata.patternheap:00000000 $d
-     /tmp/cch4zee2.s:448    .rodata.str1.4:00000000 $d
-     /tmp/cch4zee2.s:452    .rodata.testheap1:00000000 $d
-     /tmp/cch4zee2.s:461    .bss.test_heap:00000000 $d
-     /tmp/cch4zee2.s:465    .bss.test_heap:00000000 test_heap
+     /tmp/ccWWLth1.s:19     .text.heap1_execute:00000000 $t
+     /tmp/ccWWLth1.s:24     .text.heap1_execute:00000000 heap1_execute
+     /tmp/ccWWLth1.s:407    .text.heap1_execute:00000240 $d
+     /tmp/ccWWLth1.s:412    .text.heap1_setup:00000000 $t
+     /tmp/ccWWLth1.s:417    .text.heap1_setup:00000000 heap1_setup
+     /tmp/ccWWLth1.s:433    .text.heap1_setup:0000000c $d
+     /tmp/ccWWLth1.s:444    .rodata.patternheap:00000000 patternheap
+     /tmp/ccWWLth1.s:455    .rodata.testheap1:00000000 testheap1
+     /tmp/ccWWLth1.s:441    .rodata.patternheap:00000000 $d
+     /tmp/ccWWLth1.s:448    .rodata.str1.4:00000000 $d
+     /tmp/ccWWLth1.s:452    .rodata.testheap1:00000000 $d
+     /tmp/ccWWLth1.s:461    .bss.test_heap:00000000 $d
+     /tmp/ccWWLth1.s:465    .bss.test_heap:00000000 test_heap
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

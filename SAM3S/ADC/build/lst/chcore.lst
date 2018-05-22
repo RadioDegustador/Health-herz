@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9wXpVV.s 			page 1
+ARM GAS  /tmp/cc87KbGb.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9wXpVV.s 			page 1
   55 0011 1E010000 		.4byte	.LASF12
   56 0015 00000000 		.4byte	.Ldebug_ranges0+0
   57 0019 00000000 		.4byte	0
-ARM GAS  /tmp/cc9wXpVV.s 			page 2
+ARM GAS  /tmp/cc87KbGb.s 			page 2
 
 
   58 001d 00000000 		.4byte	.Ldebug_line0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9wXpVV.s 			page 1
  112 0080 04000000 		.4byte	.LFE7-.LFB7
  113 0084 01       		.uleb128 0x1
  114 0085 9C       		.byte	0x9c
-ARM GAS  /tmp/cc9wXpVV.s 			page 3
+ARM GAS  /tmp/cc87KbGb.s 			page 3
 
 
  115 0086 00       		.byte	0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9wXpVV.s 			page 1
  169 0033 19       		.uleb128 0x19
  170 0034 11       		.uleb128 0x11
  171 0035 01       		.uleb128 0x1
-ARM GAS  /tmp/cc9wXpVV.s 			page 4
+ARM GAS  /tmp/cc87KbGb.s 			page 4
 
 
  172 0036 12       		.uleb128 0x12
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9wXpVV.s 			page 1
  206      756E6374 
  207 00cc 6174612D 		.ascii	"ata-sections -fno-common\000"
  207      73656374 
-ARM GAS  /tmp/cc9wXpVV.s 			page 5
+ARM GAS  /tmp/cc87KbGb.s 			page 5
 
 
  207      696F6E73 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9wXpVV.s 			page 1
  227              	.LASF5:
  228 01bb 6C6F6E67 		.ascii	"long int\000"
  228      20696E74 
-ARM GAS  /tmp/cc9wXpVV.s 			page 6
+ARM GAS  /tmp/cc87KbGb.s 			page 6
 
 
  228      00
@@ -315,13 +315,13 @@ ARM GAS  /tmp/cc9wXpVV.s 			page 1
  234      6720696E 
  234      7400
  235              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc9wXpVV.s 			page 7
+ARM GAS  /tmp/cc87KbGb.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore.c
-     /tmp/cc9wXpVV.s:19     .text.port_halt:00000000 $t
-     /tmp/cc9wXpVV.s:25     .text.port_halt:00000000 port_halt
+     /tmp/cc87KbGb.s:19     .text.port_halt:00000000 $t
+     /tmp/cc87KbGb.s:25     .text.port_halt:00000000 port_halt
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

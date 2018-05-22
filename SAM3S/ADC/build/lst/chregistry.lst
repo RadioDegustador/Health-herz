@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccSDeMXj.s 			page 1
+ARM GAS  /tmp/ccpX4BHw.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
   55              		.loc 1 80 0
   56              	@ 80 "/home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/kernel/src/chregistry.c"
   57 0012 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/ccSDeMXj.s 			page 2
+ARM GAS  /tmp/ccpX4BHw.s 			page 2
 
 
   58              	@ 0 "" 2
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  112              	.LBB6:
  113              		.loc 1 109 0
  114 0018 0023     		movs	r3, #0
-ARM GAS  /tmp/ccSDeMXj.s 			page 3
+ARM GAS  /tmp/ccpX4BHw.s 			page 3
 
 
  115              	@ 109 "/home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS/os/kernel/src/chregistry.c
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  169 0032 42010000 		.4byte	.LASF1
  170 0036 04       		.uleb128 0x4
  171 0037 0D000000 		.4byte	.LASF5
-ARM GAS  /tmp/ccSDeMXj.s 			page 4
+ARM GAS  /tmp/ccpX4BHw.s 			page 4
 
 
  172 003b 02       		.byte	0x2
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  226 00a4 20       		.byte	0x20
  227 00a5 68000000 		.4byte	0x68
  228 00a9 04       		.uleb128 0x4
-ARM GAS  /tmp/ccSDeMXj.s 			page 5
+ARM GAS  /tmp/ccpX4BHw.s 			page 5
 
 
  229 00aa DA010000 		.4byte	.LASF15
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  283 011f 1E020000 		.4byte	0x21e
  284 0123 00       		.byte	0
  285 0124 06       		.uleb128 0x6
-ARM GAS  /tmp/ccSDeMXj.s 			page 6
+ARM GAS  /tmp/ccpX4BHw.s 			page 6
 
 
  286 0125 3E020000 		.4byte	.LASF25
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  340 0191 5D030000 		.4byte	.LASF34
  341 0195 06       		.byte	0x6
  342 0196 89       		.byte	0x89
-ARM GAS  /tmp/ccSDeMXj.s 			page 7
+ARM GAS  /tmp/ccpX4BHw.s 			page 7
 
 
  343 0197 FF020000 		.4byte	0x2ff
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  397 0200 61       		.byte	0x61
  398 0201 1E020000 		.4byte	0x21e
  399 0205 06       		.uleb128 0x6
-ARM GAS  /tmp/ccSDeMXj.s 			page 8
+ARM GAS  /tmp/ccpX4BHw.s 			page 8
 
 
  400 0206 E3020000 		.4byte	.LASF24
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  454 026f 4F020000 		.4byte	0x24f
  455 0273 00       		.byte	0
  456 0274 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccSDeMXj.s 			page 9
+ARM GAS  /tmp/ccpX4BHw.s 			page 9
 
 
  457 0275 723500   		.ascii	"r5\000"
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  511 02e4 0B       		.uleb128 0xb
  512 02e5 72313300 		.ascii	"r13\000"
  513 02e9 07       		.byte	0x7
-ARM GAS  /tmp/ccSDeMXj.s 			page 10
+ARM GAS  /tmp/ccpX4BHw.s 			page 10
 
 
  514 02ea 2401     		.2byte	0x124
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  568 0354 06       		.uleb128 0x6
  569 0355 24020000 		.4byte	.LASF54
  570 0359 08       		.byte	0x8
-ARM GAS  /tmp/ccSDeMXj.s 			page 11
+ARM GAS  /tmp/ccpX4BHw.s 			page 11
 
 
  571 035a 6C       		.byte	0x6c
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  625 03c6 06       		.byte	0x6
  626 03c7 9E       		.byte	0x9e
  627 03c8 D5000000 		.4byte	0xd5
-ARM GAS  /tmp/ccSDeMXj.s 			page 12
+ARM GAS  /tmp/ccpX4BHw.s 			page 12
 
 
  628 03cc 0F       		.uleb128 0xf
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  682 0440 12       		.uleb128 0x12
  683 0441 746D7000 		.ascii	"tmp\000"
  684 0445 01       		.byte	0x1
-ARM GAS  /tmp/ccSDeMXj.s 			page 13
+ARM GAS  /tmp/ccpX4BHw.s 			page 13
 
 
  685 0446 50       		.byte	0x50
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  739 04c0 D8040000 		.4byte	0x4d8
  740 04c4 18       		.uleb128 0x18
  741 04c5 01       		.uleb128 0x1
-ARM GAS  /tmp/ccSDeMXj.s 			page 14
+ARM GAS  /tmp/ccpX4BHw.s 			page 14
 
 
  742 04c6 50       		.byte	0x50
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  796 0020 0B       		.uleb128 0xb
  797 0021 3E       		.uleb128 0x3e
  798 0022 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccSDeMXj.s 			page 15
+ARM GAS  /tmp/ccpX4BHw.s 			page 15
 
 
  799 0023 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  853 0059 3B       		.uleb128 0x3b
  854 005a 0B       		.uleb128 0xb
  855 005b 49       		.uleb128 0x49
-ARM GAS  /tmp/ccSDeMXj.s 			page 16
+ARM GAS  /tmp/ccpX4BHw.s 			page 16
 
 
  856 005c 13       		.uleb128 0x13
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  910 0092 0B       		.uleb128 0xb
  911 0093 0B       		.uleb128 0xb
  912 0094 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccSDeMXj.s 			page 17
+ARM GAS  /tmp/ccpX4BHw.s 			page 17
 
 
  913 0095 0B       		.uleb128 0xb
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  967 00cb 3A       		.uleb128 0x3a
  968 00cc 0B       		.uleb128 0xb
  969 00cd 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccSDeMXj.s 			page 18
+ARM GAS  /tmp/ccpX4BHw.s 			page 18
 
 
  970 00ce 0B       		.uleb128 0xb
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1024 0105 08       		.uleb128 0x8
  1025 0106 3A       		.uleb128 0x3a
  1026 0107 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccSDeMXj.s 			page 19
+ARM GAS  /tmp/ccpX4BHw.s 			page 19
 
 
  1027 0108 3B       		.uleb128 0x3b
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1081 0143 3C       		.uleb128 0x3c
  1082 0144 19       		.uleb128 0x19
  1083 0145 00       		.byte	0
-ARM GAS  /tmp/ccSDeMXj.s 			page 20
+ARM GAS  /tmp/ccpX4BHw.s 			page 20
 
 
  1084 0146 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1138 0000 24000000 		.4byte	0x24
  1139 0004 0200     		.2byte	0x2
  1140 0006 00000000 		.4byte	.Ldebug_info0
-ARM GAS  /tmp/ccSDeMXj.s 			page 21
+ARM GAS  /tmp/ccpX4BHw.s 			page 21
 
 
  1141 000a 04       		.byte	0x4
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1177      2D6D7468 
  1177      756D6220 
  1177      2D676764 
-ARM GAS  /tmp/ccSDeMXj.s 			page 22
+ARM GAS  /tmp/ccpX4BHw.s 			page 22
 
 
  1178 00b0 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1201      77657200 
  1202              	.LASF8:
  1203 0178 5F5F7569 		.ascii	"__uint32_t\000"
-ARM GAS  /tmp/ccSDeMXj.s 			page 23
+ARM GAS  /tmp/ccpX4BHw.s 			page 23
 
 
  1203      6E743332 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1231 0209 705F6F6C 		.ascii	"p_older\000"
  1231      64657200 
  1232              	.LASF50:
-ARM GAS  /tmp/ccSDeMXj.s 			page 24
+ARM GAS  /tmp/ccpX4BHw.s 			page 24
 
 
  1233 0211 725F6374 		.ascii	"r_ctx\000"
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1260      4F532F6F 
  1260      732F6B65 
  1261              	.LASF24:
-ARM GAS  /tmp/ccSDeMXj.s 			page 25
+ARM GAS  /tmp/ccpX4BHw.s 			page 25
 
 
  1262 02e3 705F6E65 		.ascii	"p_next\000"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1292 036b 705F6D73 		.ascii	"p_msgqueue\000"
  1292      67717565 
  1292      756500
-ARM GAS  /tmp/ccSDeMXj.s 			page 26
+ARM GAS  /tmp/ccpX4BHw.s 			page 26
 
 
  1293              	.LASF33:
@@ -1538,17 +1538,17 @@ ARM GAS  /tmp/ccSDeMXj.s 			page 1
  1314      6974696E 
  1314      6700
  1315              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccSDeMXj.s 			page 27
+ARM GAS  /tmp/ccpX4BHw.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chregistry.c
-     /tmp/ccSDeMXj.s:19     .text.chRegFirstThread:00000000 $t
-     /tmp/ccSDeMXj.s:25     .text.chRegFirstThread:00000000 chRegFirstThread
-     /tmp/ccSDeMXj.s:66     .text.chRegFirstThread:00000018 $d
-     /tmp/ccSDeMXj.s:71     .text.chRegNextThread:00000000 $t
-     /tmp/ccSDeMXj.s:77     .text.chRegNextThread:00000000 chRegNextThread
-     /tmp/ccSDeMXj.s:130    .text.chRegNextThread:00000028 $d
+     /tmp/ccpX4BHw.s:19     .text.chRegFirstThread:00000000 $t
+     /tmp/ccpX4BHw.s:25     .text.chRegFirstThread:00000000 chRegFirstThread
+     /tmp/ccpX4BHw.s:66     .text.chRegFirstThread:00000018 $d
+     /tmp/ccpX4BHw.s:71     .text.chRegNextThread:00000000 $t
+     /tmp/ccpX4BHw.s:77     .text.chRegNextThread:00000000 chRegNextThread
+     /tmp/ccpX4BHw.s:130    .text.chRegNextThread:00000028 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc4a3wcc.s 			page 1
+ARM GAS  /tmp/ccNIiQWZ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
   55              		.loc 1 73 0
   56 0018 0B61     		str	r3, [r1, #16]
   57 001a 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/cc4a3wcc.s 			page 2
+ARM GAS  /tmp/ccNIiQWZ.s 			page 2
 
 
   58              	.L3:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  112              		.cfi_def_cfa_offset 8
  113              		.cfi_offset 3, -8
  114              		.cfi_offset 14, -4
-ARM GAS  /tmp/cc4a3wcc.s 			page 3
+ARM GAS  /tmp/ccNIiQWZ.s 			page 3
 
 
  115              		.loc 1 100 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  169              		.section	.text.PMC_EnableAllPeripherals,"ax",%progbits
  170              		.align	2
  171              		.p2align 4,,15
-ARM GAS  /tmp/cc4a3wcc.s 			page 4
+ARM GAS  /tmp/ccNIiQWZ.s 			page 4
 
 
  172              		.global	PMC_EnableAllPeripherals
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  226              		.cfi_startproc
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc4a3wcc.s 			page 5
+ARM GAS  /tmp/ccNIiQWZ.s 			page 5
 
 
  229              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  283              		.loc 1 162 0
  284 0004 10D8     		bhi	.L38
  285              		.loc 1 164 0
-ARM GAS  /tmp/cc4a3wcc.s 			page 6
+ARM GAS  /tmp/ccNIiQWZ.s 			page 6
 
 
  286 0006 1F28     		cmp	r0, #31
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  340              		.cfi_startproc
  341              		@ args = 0, pretend = 0, frame = 0
  342              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc4a3wcc.s 			page 7
+ARM GAS  /tmp/ccNIiQWZ.s 			page 7
 
 
  343              		@ link register save eliminated.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  397              	.LVL24:
  398 0036 2163     		str	r1, [r4, #48]
  399              		.loc 1 192 0
-ARM GAS  /tmp/cc4a3wcc.s 			page 8
+ARM GAS  /tmp/ccNIiQWZ.s 			page 8
 
 
  400 0038 02E0     		b	.L50
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  454              	.LVL34:
  455              	.L52:
  456              		.loc 1 204 0 is_stmt 1
-ARM GAS  /tmp/cc4a3wcc.s 			page 9
+ARM GAS  /tmp/ccNIiQWZ.s 			page 9
 
 
  457 0068 0849     		ldr	r1, .L65
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  511 0000 084B     		ldr	r3, .L72
  512              		.loc 1 213 0
  513 0002 30B4     		push	{r4, r5}
-ARM GAS  /tmp/cc4a3wcc.s 			page 10
+ARM GAS  /tmp/ccNIiQWZ.s 			page 10
 
 
  514              		.cfi_def_cfa_offset 8
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  568 0000 054B     		ldr	r3, .L79
  569 0002 064A     		ldr	r2, .L79+4
  570              		.loc 1 235 0
-ARM GAS  /tmp/cc4a3wcc.s 			page 11
+ARM GAS  /tmp/ccNIiQWZ.s 			page 11
 
 
  571 0004 1946     		mov	r1, r3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  625 000c 1440     		ands	r4, r4, r2
  626 000e 43F4F853 		orr	r3, r3, #7936
  627 0012 124A     		ldr	r2, .L96+4
-ARM GAS  /tmp/cc4a3wcc.s 			page 12
+ARM GAS  /tmp/ccNIiQWZ.s 			page 12
 
 
  628 0014 2343     		orrs	r3, r3, r4
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  682              		.align	2
  683              	.L96:
  684 0058 0000FF07 		.word	134152192
-ARM GAS  /tmp/cc4a3wcc.s 			page 13
+ARM GAS  /tmp/ccNIiQWZ.s 			page 13
 
 
  685 005c 00040E40 		.word	1074660352
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  717      3500
  718              		.text
  719              	.Letext0:
-ARM GAS  /tmp/cc4a3wcc.s 			page 14
+ARM GAS  /tmp/ccNIiQWZ.s 			page 14
 
 
  720              		.file 2 "/opt/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_default_types.h"
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  774 0064 24010000 		.4byte	.LASF8
  775 0068 02       		.uleb128 0x2
  776 0069 08       		.byte	0x8
-ARM GAS  /tmp/cc4a3wcc.s 			page 15
+ARM GAS  /tmp/ccNIiQWZ.s 			page 15
 
 
  777 006a 07       		.byte	0x7
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  831 00df EA000000 		.4byte	0xea
  832 00e3 08       		.uleb128 0x8
  833 00e4 C3000000 		.4byte	0xc3
-ARM GAS  /tmp/cc4a3wcc.s 			page 16
+ARM GAS  /tmp/ccNIiQWZ.s 			page 16
 
 
  834 00e8 04       		.byte	0x4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  888 015b 1C       		.byte	0x1c
  889 015c 0A       		.uleb128 0xa
  890 015d E5000000 		.4byte	.LASF25
-ARM GAS  /tmp/cc4a3wcc.s 			page 17
+ARM GAS  /tmp/ccNIiQWZ.s 			page 17
 
 
  891 0161 04       		.byte	0x4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  945 01d6 04       		.byte	0x4
  946 01d7 510D     		.2byte	0xd51
  947 01d9 DD020000 		.4byte	0x2dd
-ARM GAS  /tmp/cc4a3wcc.s 			page 18
+ARM GAS  /tmp/ccNIiQWZ.s 			page 18
 
 
  948 01dd 4C       		.byte	0x4c
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1002 0252 E4       		.byte	0xe4
  1003 0253 0A       		.uleb128 0xa
  1004 0254 F2020000 		.4byte	.LASF44
-ARM GAS  /tmp/cc4a3wcc.s 			page 19
+ARM GAS  /tmp/ccNIiQWZ.s 			page 19
 
 
  1005 0258 04       		.byte	0x4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1059 02d6 02       		.byte	0x2
  1060 02d7 00       		.byte	0
  1061 02d8 06       		.uleb128 0x6
-ARM GAS  /tmp/cc4a3wcc.s 			page 20
+ARM GAS  /tmp/ccNIiQWZ.s 			page 20
 
 
  1062 02d9 C8020000 		.4byte	0x2c8
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1116 0355 05       		.uleb128 0x5
  1117 0356 03       		.byte	0x3
  1118 0357 00000000 		.4byte	.LANCHOR0
-ARM GAS  /tmp/cc4a3wcc.s 			page 21
+ARM GAS  /tmp/ccNIiQWZ.s 			page 21
 
 
  1119 035b 11       		.uleb128 0x11
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1173 03c7 05       		.uleb128 0x5
  1174 03c8 03       		.byte	0x3
  1175 03c9 64000000 		.4byte	.LC1
-ARM GAS  /tmp/cc4a3wcc.s 			page 22
+ARM GAS  /tmp/ccNIiQWZ.s 			page 22
 
 
  1176 03cd 11       		.uleb128 0x11
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1230 0433 81040000 		.4byte	0x481
  1231 0437 0E       		.uleb128 0xe
  1232 0438 A2030000 		.4byte	.LASF54
-ARM GAS  /tmp/cc4a3wcc.s 			page 23
+ARM GAS  /tmp/ccNIiQWZ.s 			page 23
 
 
  1233 043c 01       		.byte	0x1
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1287 04a5 01       		.uleb128 0x1
  1288 04a6 9C       		.byte	0x9c
  1289 04a7 D9040000 		.4byte	0x4d9
-ARM GAS  /tmp/cc4a3wcc.s 			page 24
+ARM GAS  /tmp/ccNIiQWZ.s 			page 24
 
 
  1290 04ab 0E       		.uleb128 0xe
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1344 0526 E5       		.byte	0xe5
  1345 0527 88000000 		.4byte	0x88
  1346 052b 29020000 		.4byte	.LLST7
-ARM GAS  /tmp/cc4a3wcc.s 			page 25
+ARM GAS  /tmp/ccNIiQWZ.s 			page 25
 
 
  1347 052f 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1401 059e 05       		.uleb128 0x5
  1402 059f 7C030000 		.4byte	0x37c
  1403 05a3 00       		.byte	0
-ARM GAS  /tmp/cc4a3wcc.s 			page 26
+ARM GAS  /tmp/ccNIiQWZ.s 			page 26
 
 
  1404              		.section	.debug_abbrev,"",%progbits
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1458 0034 05       		.uleb128 0x5
  1459 0035 26       		.uleb128 0x26
  1460 0036 00       		.byte	0
-ARM GAS  /tmp/cc4a3wcc.s 			page 27
+ARM GAS  /tmp/ccNIiQWZ.s 			page 27
 
 
  1461 0037 49       		.uleb128 0x49
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1515 006d 0B       		.uleb128 0xb
  1516 006e 00       		.byte	0
  1517 006f 00       		.byte	0
-ARM GAS  /tmp/cc4a3wcc.s 			page 28
+ARM GAS  /tmp/ccNIiQWZ.s 			page 28
 
 
  1518 0070 0B       		.uleb128 0xb
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1572 00a7 05       		.uleb128 0x5
  1573 00a8 00       		.byte	0
  1574 00a9 03       		.uleb128 0x3
-ARM GAS  /tmp/cc4a3wcc.s 			page 29
+ARM GAS  /tmp/ccNIiQWZ.s 			page 29
 
 
  1575 00aa 0E       		.uleb128 0xe
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1629 00e5 19       		.uleb128 0x19
  1630 00e6 11       		.uleb128 0x11
  1631 00e7 01       		.uleb128 0x1
-ARM GAS  /tmp/cc4a3wcc.s 			page 30
+ARM GAS  /tmp/ccNIiQWZ.s 			page 30
 
 
  1632 00e8 12       		.uleb128 0x12
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1686 0120 0E       		.uleb128 0xe
  1687 0121 3A       		.uleb128 0x3a
  1688 0122 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc4a3wcc.s 			page 31
+ARM GAS  /tmp/ccNIiQWZ.s 			page 31
 
 
  1689 0123 3B       		.uleb128 0x3b
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1743 0159 00       		.byte	0
  1744 015a 00       		.byte	0
  1745 015b 00       		.byte	0
-ARM GAS  /tmp/cc4a3wcc.s 			page 32
+ARM GAS  /tmp/ccNIiQWZ.s 			page 32
 
 
  1746              		.section	.debug_loc,"",%progbits
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1800 007c 50       		.byte	0x50
  1801 007d 14000000 		.4byte	.LVL11
  1802 0081 18000000 		.4byte	.LVL12
-ARM GAS  /tmp/cc4a3wcc.s 			page 33
+ARM GAS  /tmp/ccNIiQWZ.s 			page 33
 
 
  1803 0085 0300     		.2byte	0x3
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1857 0100 F3       		.byte	0xf3
  1858 0101 01       		.uleb128 0x1
  1859 0102 50       		.byte	0x50
-ARM GAS  /tmp/cc4a3wcc.s 			page 34
+ARM GAS  /tmp/ccNIiQWZ.s 			page 34
 
 
  1860 0103 9F       		.byte	0x9f
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1914 0182 3A000000 		.4byte	.LVL25
  1915 0186 40000000 		.4byte	.LVL26
  1916 018a 0100     		.2byte	0x1
-ARM GAS  /tmp/cc4a3wcc.s 			page 35
+ARM GAS  /tmp/ccNIiQWZ.s 			page 35
 
 
  1917 018c 51       		.byte	0x51
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  1971 0217 2C000000 		.4byte	.LFE6
  1972 021b 0400     		.2byte	0x4
  1973 021d F3       		.byte	0xf3
-ARM GAS  /tmp/cc4a3wcc.s 			page 36
+ARM GAS  /tmp/ccNIiQWZ.s 			page 36
 
 
  1974 021e 01       		.uleb128 0x1
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2028 0038 00000000 		.4byte	.LFB5
  2029 003c 90000000 		.4byte	.LFE5-.LFB5
  2030 0040 00000000 		.4byte	.LFB6
-ARM GAS  /tmp/cc4a3wcc.s 			page 37
+ARM GAS  /tmp/ccNIiQWZ.s 			page 37
 
 
  2031 0044 2C000000 		.4byte	.LFE6-.LFB6
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2073              	.LASF65:
  2074 002b 706C6C61 		.ascii	"pllab\000"
  2074      6200
-ARM GAS  /tmp/cc4a3wcc.s 			page 38
+ARM GAS  /tmp/ccNIiQWZ.s 			page 38
 
 
  2075              	.LASF2:
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2102      72766564 
  2102      3500
  2103              	.LASF42:
-ARM GAS  /tmp/cc4a3wcc.s 			page 39
+ARM GAS  /tmp/ccNIiQWZ.s 			page 39
 
 
  2104 00c7 52657365 		.ascii	"Reserved6\000"
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2128      7400
  2129              	.LASF58:
  2130 0162 506D634D 		.ascii	"PmcMasterClockSelection\000"
-ARM GAS  /tmp/cc4a3wcc.s 			page 40
+ARM GAS  /tmp/ccNIiQWZ.s 			page 40
 
 
  2130      61737465 
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2149              	.LASF0:
  2150 029f 7369676E 		.ascii	"signed char\000"
  2150      65642063 
-ARM GAS  /tmp/cc4a3wcc.s 			page 41
+ARM GAS  /tmp/ccNIiQWZ.s 			page 41
 
 
  2150      68617200 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2176      6500
  2177              	.LASF69:
  2178 0339 2F686F6D 		.ascii	"/home/nicolas/Desktop/Embebidos/stamp_repo/files/co"
-ARM GAS  /tmp/cc4a3wcc.s 			page 42
+ARM GAS  /tmp/ccNIiQWZ.s 			page 42
 
 
  2178      652F6E69 
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2201 0416 506D634D 		.ascii	"PmcMainClockSwitchMainOsc\000"
  2201      61696E43 
  2201      6C6F636B 
-ARM GAS  /tmp/cc4a3wcc.s 			page 43
+ARM GAS  /tmp/ccNIiQWZ.s 			page 43
 
 
  2201      53776974 
@@ -2545,47 +2545,47 @@ ARM GAS  /tmp/cc4a3wcc.s 			page 1
  2211      5F504C4C 
  2211      425200
  2212              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc4a3wcc.s 			page 44
+ARM GAS  /tmp/ccNIiQWZ.s 			page 44
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pmc.c
-     /tmp/cc4a3wcc.s:19     .text.PMC_EnablePeripheral:00000000 $t
-     /tmp/cc4a3wcc.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
-     /tmp/cc4a3wcc.s:87     .text.PMC_EnablePeripheral:00000040 $d
-     /tmp/cc4a3wcc.s:95     .text.PMC_DisablePeripheral:00000000 $t
-     /tmp/cc4a3wcc.s:101    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
-     /tmp/cc4a3wcc.s:162    .text.PMC_DisablePeripheral:00000040 $d
-     /tmp/cc4a3wcc.s:170    .text.PMC_EnableAllPeripherals:00000000 $t
-     /tmp/cc4a3wcc.s:176    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
-     /tmp/cc4a3wcc.s:212    .text.PMC_EnableAllPeripherals:0000002c $d
-     /tmp/cc4a3wcc.s:217    .text.PMC_DisableAllPeripherals:00000000 $t
-     /tmp/cc4a3wcc.s:223    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
-     /tmp/cc4a3wcc.s:258    .text.PMC_DisableAllPeripherals:00000028 $d
-     /tmp/cc4a3wcc.s:263    .text.PMC_IsPeriphEnabled:00000000 $t
-     /tmp/cc4a3wcc.s:269    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
-     /tmp/cc4a3wcc.s:323    .text.PMC_IsPeriphEnabled:00000034 $d
-     /tmp/cc4a3wcc.s:331    .text.PmcMasterClockSelection:00000000 $t
-     /tmp/cc4a3wcc.s:337    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
-     /tmp/cc4a3wcc.s:354    .text.PmcMasterClockSelection:0000000a $d
-     /tmp/cc4a3wcc.s:358    .text.PmcMasterClockSelection:0000000e $t
-     /tmp/cc4a3wcc.s:491    .text.PmcMasterClockSelection:0000008c $d
-     /tmp/cc4a3wcc.s:496    .text.ConfigurePck:00000000 $t
-     /tmp/cc4a3wcc.s:502    .text.ConfigurePck:00000000 ConfigurePck
-     /tmp/cc4a3wcc.s:548    .text.ConfigurePck:00000024 $d
-     /tmp/cc4a3wcc.s:554    .text.PmcMainClockSwitchMainOsc:00000000 $t
-     /tmp/cc4a3wcc.s:560    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
-     /tmp/cc4a3wcc.s:596    .text.PmcMainClockSwitchMainOsc:00000018 $d
-     /tmp/cc4a3wcc.s:602    .text.PmcConfigurePllClock:00000000 $t
-     /tmp/cc4a3wcc.s:608    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
-     /tmp/cc4a3wcc.s:684    .text.PmcConfigurePllClock:00000058 $d
-     /tmp/cc4a3wcc.s:690    .rodata.__func__.4818:00000000 $d
-     /tmp/cc4a3wcc.s:694    .rodata.__func__.4818:00000000 __func__.4818
-     /tmp/cc4a3wcc.s:697    .rodata.__func__.4792:00000000 $d
-     /tmp/cc4a3wcc.s:701    .rodata.__func__.4792:00000000 __func__.4792
-     /tmp/cc4a3wcc.s:704    .rodata.__func__.4796:00000000 $d
-     /tmp/cc4a3wcc.s:708    .rodata.__func__.4796:00000000 __func__.4796
-     /tmp/cc4a3wcc.s:711    .rodata.str1.4:00000000 $d
+     /tmp/ccNIiQWZ.s:19     .text.PMC_EnablePeripheral:00000000 $t
+     /tmp/ccNIiQWZ.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
+     /tmp/ccNIiQWZ.s:87     .text.PMC_EnablePeripheral:00000040 $d
+     /tmp/ccNIiQWZ.s:95     .text.PMC_DisablePeripheral:00000000 $t
+     /tmp/ccNIiQWZ.s:101    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
+     /tmp/ccNIiQWZ.s:162    .text.PMC_DisablePeripheral:00000040 $d
+     /tmp/ccNIiQWZ.s:170    .text.PMC_EnableAllPeripherals:00000000 $t
+     /tmp/ccNIiQWZ.s:176    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
+     /tmp/ccNIiQWZ.s:212    .text.PMC_EnableAllPeripherals:0000002c $d
+     /tmp/ccNIiQWZ.s:217    .text.PMC_DisableAllPeripherals:00000000 $t
+     /tmp/ccNIiQWZ.s:223    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
+     /tmp/ccNIiQWZ.s:258    .text.PMC_DisableAllPeripherals:00000028 $d
+     /tmp/ccNIiQWZ.s:263    .text.PMC_IsPeriphEnabled:00000000 $t
+     /tmp/ccNIiQWZ.s:269    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
+     /tmp/ccNIiQWZ.s:323    .text.PMC_IsPeriphEnabled:00000034 $d
+     /tmp/ccNIiQWZ.s:331    .text.PmcMasterClockSelection:00000000 $t
+     /tmp/ccNIiQWZ.s:337    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
+     /tmp/ccNIiQWZ.s:354    .text.PmcMasterClockSelection:0000000a $d
+     /tmp/ccNIiQWZ.s:358    .text.PmcMasterClockSelection:0000000e $t
+     /tmp/ccNIiQWZ.s:491    .text.PmcMasterClockSelection:0000008c $d
+     /tmp/ccNIiQWZ.s:496    .text.ConfigurePck:00000000 $t
+     /tmp/ccNIiQWZ.s:502    .text.ConfigurePck:00000000 ConfigurePck
+     /tmp/ccNIiQWZ.s:548    .text.ConfigurePck:00000024 $d
+     /tmp/ccNIiQWZ.s:554    .text.PmcMainClockSwitchMainOsc:00000000 $t
+     /tmp/ccNIiQWZ.s:560    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
+     /tmp/ccNIiQWZ.s:596    .text.PmcMainClockSwitchMainOsc:00000018 $d
+     /tmp/ccNIiQWZ.s:602    .text.PmcConfigurePllClock:00000000 $t
+     /tmp/ccNIiQWZ.s:608    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
+     /tmp/ccNIiQWZ.s:684    .text.PmcConfigurePllClock:00000058 $d
+     /tmp/ccNIiQWZ.s:690    .rodata.__func__.4818:00000000 $d
+     /tmp/ccNIiQWZ.s:694    .rodata.__func__.4818:00000000 __func__.4818
+     /tmp/ccNIiQWZ.s:697    .rodata.__func__.4792:00000000 $d
+     /tmp/ccNIiQWZ.s:701    .rodata.__func__.4792:00000000 __func__.4792
+     /tmp/ccNIiQWZ.s:704    .rodata.__func__.4796:00000000 $d
+     /tmp/ccNIiQWZ.s:708    .rodata.__func__.4796:00000000 __func__.4796
+     /tmp/ccNIiQWZ.s:711    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

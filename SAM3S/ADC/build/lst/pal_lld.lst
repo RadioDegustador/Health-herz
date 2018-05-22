@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc4kS67M.s 			page 1
+ARM GAS  /tmp/ccVoo9SF.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
   55              		.loc 1 91 0
   56 0018 CC43     		mvns	r4, r1
   57              		.loc 1 92 0
-ARM GAS  /tmp/cc4kS67M.s 			page 2
+ARM GAS  /tmp/ccVoo9SF.s 			page 2
 
 
   58 001a 4FF0FF33 		mov	r3, #-1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  112              		.loc 1 115 0
  113 0056 4E61     		str	r6, [r1, #20]
  114              		.loc 1 116 0
-ARM GAS  /tmp/cc4kS67M.s 			page 3
+ARM GAS  /tmp/ccVoo9SF.s 			page 3
 
 
  115 0058 4B62     		str	r3, [r1, #36]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  169              	.L3:
  170 00a4 00040E40 		.word	1074660352
  171 00a8 00434D50 		.word	1347240704
-ARM GAS  /tmp/cc4kS67M.s 			page 4
+ARM GAS  /tmp/ccVoo9SF.s 			page 4
 
 
  172 00ac 01434D50 		.word	1347240705
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  226              		.loc 1 186 0
  227 0022 4165     		str	r1, [r0, #84]
  228              		.loc 1 187 0
-ARM GAS  /tmp/cc4kS67M.s 			page 5
+ARM GAS  /tmp/ccVoo9SF.s 			page 5
 
 
  229 0024 7047     		bx	lr
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  283 0039 E2040000 		.4byte	.LASF2
  284 003d 03       		.uleb128 0x3
  285 003e 02       		.byte	0x2
-ARM GAS  /tmp/cc4kS67M.s 			page 6
+ARM GAS  /tmp/ccVoo9SF.s 			page 6
 
 
  286 003f 05       		.byte	0x5
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  340 00ab 04       		.uleb128 0x4
  341 00ac 85040000 		.4byte	.LASF15
  342 00b0 05       		.byte	0x5
-ARM GAS  /tmp/cc4kS67M.s 			page 7
+ARM GAS  /tmp/ccVoo9SF.s 			page 7
 
 
  343 00b1 39       		.byte	0x39
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  397 012a 05       		.byte	0x5
  398 012b DD06     		.2byte	0x6dd
  399 012d 9B000000 		.4byte	0x9b
-ARM GAS  /tmp/cc4kS67M.s 			page 8
+ARM GAS  /tmp/ccVoo9SF.s 			page 8
 
 
  400 0131 08       		.byte	0x8
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  454 01a6 2C       		.byte	0x2c
  455 01a7 0A       		.uleb128 0xa
  456 01a8 49060000 		.4byte	.LASF29
-ARM GAS  /tmp/cc4kS67M.s 			page 9
+ARM GAS  /tmp/ccVoo9SF.s 			page 9
 
 
  457 01ac 05       		.byte	0x5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  511 0221 05       		.byte	0x5
  512 0222 F006     		.2byte	0x6f0
  513 0224 AB000000 		.4byte	0xab
-ARM GAS  /tmp/cc4kS67M.s 			page 10
+ARM GAS  /tmp/ccVoo9SF.s 			page 10
 
 
  514 0228 54       		.byte	0x54
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  568 029d 80       		.byte	0x80
  569 029e 0A       		.uleb128 0xa
  570 029f 17060000 		.4byte	.LASF48
-ARM GAS  /tmp/cc4kS67M.s 			page 11
+ARM GAS  /tmp/ccVoo9SF.s 			page 11
 
 
  571 02a3 05       		.byte	0x5
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  625 0318 05       		.byte	0x5
  626 0319 0307     		.2byte	0x703
  627 031b 9B000000 		.4byte	0x9b
-ARM GAS  /tmp/cc4kS67M.s 			page 12
+ARM GAS  /tmp/ccVoo9SF.s 			page 12
 
 
  628 031f A8       		.byte	0xa8
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  682 0394 CC       		.byte	0xcc
  683 0395 0A       		.uleb128 0xa
  684 0396 C6040000 		.4byte	.LASF67
-ARM GAS  /tmp/cc4kS67M.s 			page 13
+ARM GAS  /tmp/ccVoo9SF.s 			page 13
 
 
  685 039a 05       		.byte	0x5
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  739 0410 05       		.byte	0x5
  740 0411 1607     		.2byte	0x716
  741 0413 3B050000 		.4byte	0x53b
-ARM GAS  /tmp/cc4kS67M.s 			page 14
+ARM GAS  /tmp/ccVoo9SF.s 			page 14
 
 
  742 0417 0401     		.2byte	0x104
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  796 0495 7001     		.2byte	0x170
  797 0497 0B       		.uleb128 0xb
  798 0498 76030000 		.4byte	.LASF86
-ARM GAS  /tmp/cc4kS67M.s 			page 15
+ARM GAS  /tmp/ccVoo9SF.s 			page 15
 
 
  799 049c 05       		.byte	0x5
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  853 0519 E1000000 		.4byte	0xe1
  854 051d 05       		.uleb128 0x5
  855 051e D1000000 		.4byte	0xd1
-ARM GAS  /tmp/cc4kS67M.s 			page 16
+ARM GAS  /tmp/ccVoo9SF.s 			page 16
 
 
  856 0522 05       		.uleb128 0x5
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  910 059c 05       		.byte	0x5
  911 059d 450D     		.2byte	0xd45
  912 059f AB000000 		.4byte	0xab
-ARM GAS  /tmp/cc4kS67M.s 			page 17
+ARM GAS  /tmp/ccVoo9SF.s 			page 17
 
 
  913 05a3 14       		.byte	0x14
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  967 0618 38       		.byte	0x38
  968 0619 0A       		.uleb128 0xa
  969 061a E9010000 		.4byte	.LASF40
-ARM GAS  /tmp/cc4kS67M.s 			page 18
+ARM GAS  /tmp/ccVoo9SF.s 			page 18
 
 
  970 061e 05       		.byte	0x5
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1024 0693 05       		.byte	0x5
  1025 0694 580D     		.2byte	0xd58
  1026 0696 AB000000 		.4byte	0xab
-ARM GAS  /tmp/cc4kS67M.s 			page 19
+ARM GAS  /tmp/ccVoo9SF.s 			page 19
 
 
  1027 069a 78       		.byte	0x78
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1081 0713 1001     		.2byte	0x110
  1082 0715 00       		.byte	0
  1083 0716 05       		.uleb128 0x5
-ARM GAS  /tmp/cc4kS67M.s 			page 20
+ARM GAS  /tmp/ccVoo9SF.s 			page 20
 
 
  1084 0717 D1000000 		.4byte	0xd1
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1138 0790 86030000 		.4byte	.LASF120
  1139 0794 06       		.byte	0x6
  1140 0795 3E       		.byte	0x3e
-ARM GAS  /tmp/cc4kS67M.s 			page 21
+ARM GAS  /tmp/ccVoo9SF.s 			page 21
 
 
  1141 0796 72000000 		.4byte	0x72
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1195 0802 00000000 		.4byte	.LFB36
  1196 0806 B8000000 		.4byte	.LFE36-.LFB36
  1197 080a 01       		.uleb128 0x1
-ARM GAS  /tmp/cc4kS67M.s 			page 22
+ARM GAS  /tmp/ccVoo9SF.s 			page 22
 
 
  1198 080b 9C       		.byte	0x9c
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1252 087e 82080000 		.4byte	0x882
  1253 0882 05       		.uleb128 0x5
  1254 0883 21000000 		.4byte	0x21
-ARM GAS  /tmp/cc4kS67M.s 			page 23
+ARM GAS  /tmp/ccVoo9SF.s 			page 23
 
 
  1255 0887 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1309 0033 00       		.byte	0
  1310 0034 05       		.uleb128 0x5
  1311 0035 35       		.uleb128 0x35
-ARM GAS  /tmp/cc4kS67M.s 			page 24
+ARM GAS  /tmp/ccVoo9SF.s 			page 24
 
 
  1312 0036 00       		.byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1366 006c 38       		.uleb128 0x38
  1367 006d 0B       		.uleb128 0xb
  1368 006e 00       		.byte	0
-ARM GAS  /tmp/cc4kS67M.s 			page 25
+ARM GAS  /tmp/ccVoo9SF.s 			page 25
 
 
  1369 006f 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1423 00a5 0B       		.uleb128 0xb
  1424 00a6 00       		.byte	0
  1425 00a7 00       		.byte	0
-ARM GAS  /tmp/cc4kS67M.s 			page 26
+ARM GAS  /tmp/ccVoo9SF.s 			page 26
 
 
  1426 00a8 0F       		.uleb128 0xf
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1480 00df 3A       		.uleb128 0x3a
  1481 00e0 0B       		.uleb128 0xb
  1482 00e1 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc4kS67M.s 			page 27
+ARM GAS  /tmp/ccVoo9SF.s 			page 27
 
 
  1483 00e2 0B       		.uleb128 0xb
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1537 0118 00       		.byte	0
  1538              		.section	.debug_loc,"",%progbits
  1539              	.Ldebug_loc0:
-ARM GAS  /tmp/cc4kS67M.s 			page 28
+ARM GAS  /tmp/ccVoo9SF.s 			page 28
 
 
  1540              	.LLST0:
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1592      00000201 
  1592      FB0E0D00 
  1592      01010101 
-ARM GAS  /tmp/cc4kS67M.s 			page 29
+ARM GAS  /tmp/ccVoo9SF.s 			page 29
 
 
  1593              	.LASF82:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1615      676E2D66 
  1615      756E6374 
  1616 0123 6174612D 		.ascii	"ata-sections -fno-common\000"
-ARM GAS  /tmp/cc4kS67M.s 			page 30
+ARM GAS  /tmp/ccVoo9SF.s 			page 30
 
 
  1616      73656374 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1640      00
  1641              	.LASF19:
  1642 01c3 50494F5F 		.ascii	"PIO_PSR\000"
-ARM GAS  /tmp/cc4kS67M.s 			page 31
+ARM GAS  /tmp/ccVoo9SF.s 			page 31
 
 
  1642      50535200 
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1670      50434552 
  1670      3000
  1671              	.LASF115:
-ARM GAS  /tmp/cc4kS67M.s 			page 32
+ARM GAS  /tmp/ccVoo9SF.s 			page 32
 
 
  1672 0252 504D435F 		.ascii	"PMC_PCER1\000"
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1698      313100
  1699              	.LASF74:
  1700 0327 52657365 		.ascii	"Reserved12\000"
-ARM GAS  /tmp/cc4kS67M.s 			page 33
+ARM GAS  /tmp/ccVoo9SF.s 			page 33
 
 
  1700      72766564 
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1728 03af 50494F5F 		.ascii	"PIO_ODR\000"
  1728      4F445200 
  1729              	.LASF44:
-ARM GAS  /tmp/cc4kS67M.s 			page 34
+ARM GAS  /tmp/ccVoo9SF.s 			page 34
 
 
  1730 03b7 52657365 		.ascii	"Reserved5\000"
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1759              	.LASF12:
  1760 0446 73697A65 		.ascii	"sizetype\000"
  1760      74797065 
-ARM GAS  /tmp/cc4kS67M.s 			page 35
+ARM GAS  /tmp/ccVoo9SF.s 			page 35
 
 
  1760      00
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1791              	.LASF67:
  1792 04c6 50494F5F 		.ascii	"PIO_FELLSR\000"
  1792      46454C4C 
-ARM GAS  /tmp/cc4kS67M.s 			page 36
+ARM GAS  /tmp/ccVoo9SF.s 			page 36
 
 
  1792      535200
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1820      33325F74 
  1820      00
  1821              	.LASF68:
-ARM GAS  /tmp/cc4kS67M.s 			page 37
+ARM GAS  /tmp/ccVoo9SF.s 			page 37
 
 
  1822 0558 50494F5F 		.ascii	"PIO_REHLSR\000"
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1848      7400
  1849              	.LASF109:
  1850 05ec 504D435F 		.ascii	"PMC_IMR\000"
-ARM GAS  /tmp/cc4kS67M.s 			page 38
+ARM GAS  /tmp/ccVoo9SF.s 			page 38
 
 
  1850      494D5200 
@@ -2271,18 +2271,18 @@ ARM GAS  /tmp/cc4kS67M.s 			page 1
  1874      57505352 
  1874      00
  1875              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc4kS67M.s 			page 39
+ARM GAS  /tmp/ccVoo9SF.s 			page 39
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pal_lld.c
-     /tmp/cc4kS67M.s:19     .text._pal_lld_init:00000000 $t
-     /tmp/cc4kS67M.s:25     .text._pal_lld_init:00000000 _pal_lld_init
-     /tmp/cc4kS67M.s:170    .text._pal_lld_init:000000a4 $d
-     /tmp/cc4kS67M.s:179    .text._pal_lld_setgroupmode:00000000 $t
-     /tmp/cc4kS67M.s:185    .text._pal_lld_setgroupmode:00000000 _pal_lld_setgroupmode
-     /tmp/cc4kS67M.s:200    .text._pal_lld_setgroupmode:0000000c $d
-     /tmp/cc4kS67M.s:208    .text._pal_lld_setgroupmode:00000014 $t
+     /tmp/ccVoo9SF.s:19     .text._pal_lld_init:00000000 $t
+     /tmp/ccVoo9SF.s:25     .text._pal_lld_init:00000000 _pal_lld_init
+     /tmp/ccVoo9SF.s:170    .text._pal_lld_init:000000a4 $d
+     /tmp/ccVoo9SF.s:179    .text._pal_lld_setgroupmode:00000000 $t
+     /tmp/ccVoo9SF.s:185    .text._pal_lld_setgroupmode:00000000 _pal_lld_setgroupmode
+     /tmp/ccVoo9SF.s:200    .text._pal_lld_setgroupmode:0000000c $d
+     /tmp/ccVoo9SF.s:208    .text._pal_lld_setgroupmode:00000014 $t
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS
