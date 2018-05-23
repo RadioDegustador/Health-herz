@@ -25,10 +25,10 @@ static msg_t Thread1(void *arg) {
     chThdSleepMilliseconds(50);
   }
   return(0);
-}
+};
 
 
-/*Función deshonrosamente copiada*/
+/*Función deshonrosamente copiada*/ //Kernel es la respuesta al impulso del filtro
 void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
               const double Kernel[/* KernelLen */], size_t KernelLen,
               double Result[/* SignalLen + KernelLen - 1 */])
@@ -51,6 +51,8 @@ void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
   }
 };
 
+
+/*h es la respuesta al impulso del filtro con fs = 250Hz*/
 double h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.00183627497553400, 0.187348576956375, 0.278006552946558, 0.187348576956375, -0.00183627497553400, -0.132008742782508, -0.131643055995946, -0.0593341497149129};
 
 
@@ -107,7 +109,7 @@ int main(void) {
     	i++;
     }	
    //}
-   double* salida=0;
+   double* salida = 0;
    
    convolve(ADC_Val,1000,h,11,salida);
    
