@@ -6,6 +6,8 @@
 #include "pio.h"
 #include "pmc.h"
 #include "board.h"
+//#include "stdlib.h"
+#include "stddef.h"
 
 
 #define PLL_A            0           /* PLL A */
@@ -23,15 +25,46 @@ static msg_t Thread1(void *arg) {
     chThdSleepMilliseconds(50);
   }
   return(0);
-}
+};
+
+
+/*Función deshonrosamente copiada*/ //Kernel es la respuesta al impulso del filtro
+void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
+              const double Kernel[/* KernelLen */], size_t KernelLen,
+              double Result[/* SignalLen + KernelLen - 1 */])
+{
+  size_t n;
+
+  for (n = 0; n < SignalLen + KernelLen - 1; n++)
+  {
+    size_t kmin, kmax, k;
+
+    Result[n] = 0;
+
+    kmin = (n >= KernelLen - 1) ? n - (KernelLen - 1) : 0;
+    kmax = (n < SignalLen - 1) ? n : SignalLen - 1;
+
+    for (k = kmin; k <= kmax; k++)
+    {
+      Result[n] += Signal[k] * Kernel[n - k];
+    }
+  }
+};
+
+
+/*h es la respuesta al impulso del filtro con fs = 250Hz*/
+double h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.00183627497553400, 0.187348576956375, 0.278006552946558, 0.187348576956375, -0.00183627497553400, -0.132008742782508, -0.131643055995946, -0.0593341497149129};
+
 
 /*
  * Application entry point.
  */
 int main(void) {
 
-   int ADC_Val[1001];
-
+   double ADC_Val[1001];
+   short i;
+   i = 0;
+   
    halInit();
    chSysInit();
    sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
@@ -54,7 +87,7 @@ int main(void) {
     *     prescal: ADCClock = MCK / ( (PRESCAL+1) * 2 ) => 48MHz / ((11+1)*2) = 2MHz
     *     ADC clock = 2 MHz
     */
-   ADC_cfgFrequency( ADC, 15, 11 ); /*//ADC_cfgFrequency( Adc* pAdc, uint32_t startup, uint32_t prescal )
+   ADC_cfgFrequency( ADC, 15, 95999 ); /*//ADC_cfgFrequency( Adc* pAdc, uint32_t startup, uint32_t prescal )
                                     //startup =  ciclos de reloj que cuenta el ADC antes de inicial 15 = 960 periodos de Clk ADC
                                    // prescal = 11, divide la velocidad del clk externo para obtener el valor de adc_freq = mck_freq / 					   ((prescal+1)*2) */
                                     // freqADC = 2Mhz para pescal = 11 y clk_ext = 48MHz
@@ -67,14 +100,18 @@ int main(void) {
    /* Creates the blinker thread. */
    chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
 
-   while (TRUE) {
-    while( !( (ADC->ADC_ISR & ADC_ISR_EOC0)) );
-    for (int i= 0;i<1000; i ++){
+   //while (TRUE) {
+    while( !( (ADC->ADC_ISR & ADC_ISR_EOC0))&&i<10){
     	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada //
     	espacio de ADC_Val[]*/    
       	ADC_Val[i] = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 registros	
     	chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096) ;
-    };
-   }
+    	i++;
+    }	
+   //}
+   double* salida = 0;
+   
+   convolve(ADC_Val,1000,h,11,salida);
+   
    return(0);
 }
