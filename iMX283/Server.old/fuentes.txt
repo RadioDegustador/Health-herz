@@ -1,5 +1,0 @@
-Servidor en python
-http://www.pythondiario.com/2017/10/servidores-http-httpserver.html
-
-Formulario HTML
-https://developer.mozilla.org/es/docs/Learn/HTML/Forms/Your_first_HTML_form
