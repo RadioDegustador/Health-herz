@@ -17,7 +17,6 @@ import json
 app  = Flask(__name__)
 
 eje = []
-dato = [1, 2, 4, 6, 3, 7]
 x = len(dato)
 
 for i in range(x):
