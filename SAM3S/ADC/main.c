@@ -6,12 +6,13 @@
 #include "pio.h"
 #include "pmc.h"
 #include "board.h"
-//#include "stdlib.h"
 #include "stddef.h"
 
 
 #define PLL_A            0           /* PLL A */
 #define PLL_B            1           /* PLL B */
+#define ELEMENT_COUNT(X) (sizeof(X) / sizeof((X)[0]))
+
 /** Pin PCK2 (PA31 Peripheral B) */
 const Pin pinPCK[] = PIN_PCK2;  
 
@@ -25,13 +26,11 @@ static msg_t Thread1(void *arg) {
     chThdSleepMilliseconds(50);
   }
   return(0);
-};
+}
 
 
-/*Función deshonrosamente copiada*/ //Kernel es la respuesta al impulso del filtro
-void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
-              const double Kernel[/* KernelLen */], size_t KernelLen,
-              double Result[/* SignalLen + KernelLen - 1 */])
+//Kernel es la respuesta al impulso del filtro
+void convolve (const double Signal[/* SignalLen */], size_t SignalLen,const double Kernel[/* KernelLen */], size_t KernelLen,double Result[/* SignalLen + KernelLen - 1 */])
 {
   size_t n;
 
@@ -41,8 +40,8 @@ void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
 
     Result[n] = 0;
 
-    kmin = (n >= KernelLen - 1) ? n - (KernelLen - 1) : 0;
-    kmax = (n < SignalLen - 1) ? n : SignalLen - 1;
+    kmin = (n >= KernelLen - 1) ? n - (KernelLen - 1) : 0; //Desplaza el valor minimo con lo que desplaza el arreglo Kernel
+    kmax = (n < SignalLen - 1) ? n : SignalLen - 1; //Desplaza el valor máximo hasta donde debe ir Signal para terminar la convolución
 
     for (k = kmin; k <= kmax; k++)
     {
@@ -50,7 +49,6 @@ void convolve(const double Signal[/* SignalLen */], size_t SignalLen,
     }
   }
 };
-
 
 /*h es la respuesta al impulso del filtro con fs = 250Hz*/
 double h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.00183627497553400, 0.187348576956375, 0.278006552946558, 0.187348576956375, -0.00183627497553400, -0.132008742782508, -0.131643055995946, -0.0593341497149129};
@@ -60,11 +58,8 @@ double h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.0
  * Application entry point.
  */
 int main(void) {
+   double ADC_Val[1000]; //tiene que ser un entero
 
-   double ADC_Val[1001];
-   short i;
-   i = 0;
-   
    halInit();
    chSysInit();
    sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
@@ -100,18 +95,22 @@ int main(void) {
    /* Creates the blinker thread. */
    chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
 
-   //while (TRUE) {
-    while( !( (ADC->ADC_ISR & ADC_ISR_EOC0))&&i<10){
+   while (TRUE) {
+    while( !(ADC->ADC_ISR & ADC_ISR_EOC0));//Cuando hay interrupción "ADC_ISR" este while vuelve a while(true)
+    for (int i= 0;i<1000; i ++){
     	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada //
     	espacio de ADC_Val[]*/    
       	ADC_Val[i] = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 registros	
     	chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096) ;
-    	i++;
-    }	
-   //}
-   double* salida = 0;
+    };
+    
+    
+    chThdSleepMilliseconds(1000);
+    double  salida[ELEMENT_COUNT(ADC_Val)+ELEMENT_COUNT(h)-1];
    
-   convolve(ADC_Val,1000,h,11,salida);
+    convolve(ADC_Val,ELEMENT_COUNT(ADC_Val),h,ELEMENT_COUNT(h),salida);// Si no sirve comentar esa línea
+   }
+   
    
    return(0);
 }
