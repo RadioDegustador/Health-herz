@@ -11,7 +11,7 @@
 
 #define PLL_A            0           /* PLL A */
 #define PLL_B            1           /* PLL B */
-#define ELEMENT_COUNT(X) (sizeof(X) / sizeof((X)[0]))
+#define ELEMENT_COUNT(X) (sizeof(X) / sizeof((X)[0])) //Saca el tamaño de un vector
 
 /** Pin PCK2 (PA31 Peripheral B) */
 const Pin pinPCK[] = PIN_PCK2;  
@@ -30,10 +30,10 @@ static msg_t Thread1(void *arg) {
 
 
 //Kernel es la respuesta al impulso del filtro
-void convolve(const float Signal[/* SignalLen */], size_t SignalLen,
-              const float Kernel[/* KernelLen */], size_t KernelLen,
-              float Result[/* SignalLen + KernelLen - 1 */])
-{
+/*void convolve(const float Signal[/* SignalLen */], size_t SignalLen,
+//              const float Kernel[/* KernelLen */], size_t KernelLen,
+//              float Result[/* SignalLen + KernelLen - 1 */])
+/*{
   size_t n;
 
   for (n = 0; n < SignalLen + KernelLen - 1; n++)
@@ -49,10 +49,10 @@ void convolve(const float Signal[/* SignalLen */], size_t SignalLen,
       Result[n] += Signal[k] * Kernel[n - k];
     }
   }
-}
+}*/
 
 /*h es la respuesta al impulso del filtro con fs = 250Hz*/
-float h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.00183627497553400, 0.187348576956375, 0.278006552946558, 0.187348576956375, -0.00183627497553400, -0.132008742782508, -0.131643055995946, -0.0593341497149129};
+/*float h [] = {-0.0593341497149129 ,-0.131643055995946, -0.132008742782508, -0.00183627497553400, 0.187348576956375, 0.278006552946558, 0.187348576956375, -0.00183627497553400, -0.132008742782508, -0.131643055995946, -0.0593341497149129};*/
 
 
 /*
@@ -102,7 +102,7 @@ int main(void) {
     	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada //
     	espacio de ADC_Val[]*/    
       	ADC_Val[i] = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 
-    	chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
+    	//chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
     	
     	float x1=0, x2= 0,x3=0 ,x4= 0,x5=0,x6=0,x7=0,x8=0,x9=0,x10=0,y=0;
     	
