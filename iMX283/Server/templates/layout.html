@@ -7,14 +7,16 @@
     <!--link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
     < Custom styles for this template -->
-    <link  rel="stylesheet" type = "text/css" href="{{url_for('static', filename = 'signin.css')}}">
-    <link rel="shortcut icon" href="{{url_for('static', filename = 'icons.ico')}}">
-    <link  rel="stylesheet" type = "text/css" href="{{url_for('static', filename = 'chartist.min.css')}}">
-    <script type = "text/javascript" src="{{url_for('static', filename = 'canvasjs.min.js')}}"></script>
-    <script type = "text/javascript" src="{{url_for('static', filename = 'chartist.min.js')}}"></script>
-
+    <link  rel = "stylesheet" href="{{url_for('static', filename = 'signin.css')}}">
+    <link rel = "shortcut icon" href="{{url_for('static', filename = 'icons.ico')}}">
   </head>
   <body class="text-center">
+  <header class="encabezado"
+    <h1> Health-Hertz </h1>
+  </header>
     {% block body%} {% endblock %}
+  <footer class="pie-pagina"
+    <p> Elaborado por: Diana Castaño, Nicolas González y Leonardo Pérez </p>
+  </footer>
   </body>
 </html>

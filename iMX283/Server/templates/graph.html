@@ -1,16 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="uft-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gráfica del corazón</title>
-    <link rel="shortcut icon" href="{{url_for('static', filename = 'icons.ico')}}">
+{% extends 'layout.html' %}
+
+{% block body %}
     <link  rel="stylesheet" type = "text/css" href="{{url_for('static', filename = 'chartist.min.css')}}">
     <script type = "text/javascript" src="{{url_for('static', filename = 'chartist.min.js')}}"></script>
+    <link  rel="stylesheet" href="{{url_for('static', filename = 'graph.css')}}">
 
-  </head>
+<div class="prueba">
 	<body class="text-center">
-<div class="ct-chart ct-perfect-fourth"></div>
+<div class="ct-chart ct-perfect-fourth">
 <script>
       var latidos = {{ datos|tojson }};
       var ejex  = {{eje|tojson}}
@@ -27,12 +24,15 @@ var data = {
 
 // As options we currently only set a static size of 300x200 px
 var options = {
-  width: '800px',
-  height: '600px'
+  width: '90%',
+  height: '40%'
 };
 
 // In the global name space Chartist we call the Line function to initialize a line chart. As a first parameter we pass in a selector where we would like to get our chart created. Second parameter is the actual data object and as a third parameter we pass in our options
 new Chartist.Line('.ct-chart', data, options);
 </script>
+</div>
 </body>
-</html>
+</div>
+
+{% endblock %}
