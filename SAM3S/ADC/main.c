@@ -57,7 +57,7 @@ int main(void) {
     *     prescal: ADCClock = MCK / ( (PRESCAL+1) * 2 ) => 48MHz / ((11+1)*2) = 2MHz
     *     ADC clock = 2 MHz
     */
-   ADC_cfgFrequency( ADC, 15, 95999 ); /*//ADC_cfgFrequency( Adc* pAdc, uint32_t startup, uint32_t prescal )
+   ADC_cfgFrequency( ADC, 15, 95999); /*//ADC_cfgFrequency( Adc* pAdc, uint32_t startup, uint32_t prescal )
                                     //startup =  ciclos de reloj que cuenta el ADC antes de inicial 15 = 960 periodos de Clk ADC
                                    // prescal = 11, divide la velocidad del clk externo para obtener el valor de adc_freq = mck_freq / 					   ((prescal+1)*2) */
                                     // freqADC = 2Mhz para pescal = 11 y clk_ext = 48MHz
@@ -73,7 +73,7 @@ int main(void) {
    while (TRUE) {
     while( !(ADC->ADC_ISR & ADC_ISR_EOC0));//Este While revisa que no halla una interrupción, de existir vuelve a iniciar el ciclo While(TRUE)
 
-    	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada //
+    	/*chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada
     	espacio de ADC_Val[]*/    
       	ADC_Val = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 
     	//chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
@@ -93,9 +93,6 @@ int main(void) {
     	x3  = x2;
     	x2  = x1;
     	x1  = ADC_Val;
-    	
-    	
-    		   
     		   
     	chprintf((BaseChannel *)&SD2, "%d \r\n",y*3300/4096);	   	 
     
