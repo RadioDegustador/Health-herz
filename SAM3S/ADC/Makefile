@@ -47,8 +47,8 @@ PROJECT = adc
 # Imported source files "Cambiar esta ruta por la del ChibiOS de su PC"
 
 #CHIBIOS = /home/diana/Documentos/Embebidos/stamp_repo/files/code/ext/ChibiOS
-CHIBIOS = /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS
-#CHIBIOS = /home/leoperez/Documents/acuerol-stamp_repo-9ea99115aa86/files/code/ext/ChibiOS
+#CHIBIOS = /home/nicolas/Desktop/Embebidos/stamp_repo/files/code/ext/ChibiOS
+CHIBIOS = /home/leoperez/Documents/acuerol-stamp_repo-9ea99115aa86/files/code/ext/ChibiOS
 
 include $(CHIBIOS)/boards/ATMEL_SAM3S_EK/board.mk
 include $(CHIBIOS)/os/hal/platforms/AT91SAM3S/platform.mk
