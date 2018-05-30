@@ -78,7 +78,7 @@ int main(void) {
       	ADC_Val = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 
     	//chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
     	
-
+//Falta arreglar el valor de ADC_Val, multiplicando por 33000/4096, para trabajar desde un principio con los valores de tensión reales
     	
     	
     	y = -0.131643055995946*x1-0.132008742782508*x2-0.001836274975534*x3-0.187348576956375*x4+0.278006552946558*x5+0.187348576956375*x6-0.001836274975534*x7-0.132008742782508*x8-0.131643055995946*x9-0.059334149714913*x10-0.059334149714913*ADC_Val;
