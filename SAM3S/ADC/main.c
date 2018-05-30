@@ -34,7 +34,7 @@ static msg_t Thread1(void *arg) {
  */
 int main(void) {
    float ADC_Val; //tiene que ser un entero
-
+   float x1=0, x2= 0,x3=0 ,x4= 0,x5=0,x6=0,x7=0,x8=0,x9=0,x10=0,y=0;
    halInit();
    chSysInit();
    sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
@@ -78,7 +78,7 @@ int main(void) {
       	ADC_Val = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 
     	//chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
     	
-    	float x1=0, x2= 0,x3=0 ,x4= 0,x5=0,x6=0,x7=0,x8=0,x9=0,x10=0,y=0;
+
     	
     	
     	y = -0.131643055995946*x1-0.132008742782508*x2-0.001836274975534*x3-0.187348576956375*x4+0.278006552946558*x5+0.187348576956375*x6-0.001836274975534*x7-0.132008742782508*x8-0.131643055995946*x9-0.059334149714913*x10-0.059334149714913*ADC_Val;
