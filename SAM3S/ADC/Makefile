@@ -10,11 +10,11 @@ endif
 
 # C specific options here (added to USE_OPT).
 ifeq ($(USE_COPT),)
-  USE_COPT = 
+  USE_COPT =
 endif
 
 # C++ specific options here (added to USE_OPT).
-ifeq ($(USE_CPPOPT),)		
+ifeq ($(USE_CPPOPT),)
   USE_CPPOPT = -fno-rtti
 endif
 
@@ -104,7 +104,7 @@ ASMSRC = $(PORTASM)
 
 INCDIR = $(PORTINC) $(KERNINC) $(TESTINC) \
          $(HALINC) $(PLATFORMINC) $(BOARDINC) \
-         $(CHIBIOS)/os/various 
+         $(CHIBIOS)/os/various
 
 #
 # Project, sources and paths
