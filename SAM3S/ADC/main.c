@@ -93,9 +93,9 @@ int main(void) {
     	x4  = x3;
     	x3  = x2;
     	x2  = x1;
-    	x1  = ADC_Val;
+    	x1  = ADC_Val*3300/4096;
     		   
-    	chprintf((BaseChannel *)&SD2, "%d \r\n",y*3300/4096);	   	 
+    	chprintf((BaseChannel *)&SD2, "%d \r\n",y);	   	 
     
    
     
