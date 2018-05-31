@@ -9,7 +9,7 @@ eje = [-5,-4,-3,-2,-1,0]
 
 while (1):
 	dato = SAM3S.readline()
-	dato_float = round(float(dato[0:4])/1000,3) 
+	dato_float = round(float(dato)/1000,3) 
 	senal = [senal[1],senal[2],senal[3],senal[4],dato_float]
 	print(senal)
 	print(dato)

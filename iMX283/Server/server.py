@@ -1,28 +1,16 @@
 from flask import Flask, render_template
 import json
 import serial
+import csv
 #Libreria para usar el puerto serial
 
 #El puerto al que esta conectado el SAM3S es /dev/ttySP0
 #SAM3S = serial.Serial('/dev/ttySP0',baudrate=115200,timeout = 3.0)
-#datos = []
 
-#while (1):
-#	dato = SAM3S.readline()
-##	print(dato)
+datos = [0,0,0,0,0]
+eje = [-5,-4,-3,-2,-1,0]
 
-#SAM3S.close()
 app  = Flask(__name__)
-
-#eje = []
-#x = len(datos)
-
-#for i in range(x):
-#    nuevodato = i+1
-#    eje.append(nuevodato)
-
-eje = [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
-datos = [1,1,0,0,1,1,0,0,1,1,0,0]
 
 @app.route('/')
 def index():
@@ -30,8 +18,24 @@ def index():
 
 @app.route('/graph', methods =['GET', 'POST'])
 def send():
-    arreglodatos = datos
+    datos = []
+    with open('./datos.csv') as File:
+        reader = csv.reader(File,delimiter=',')
+        print(reader)
+        for row in reader:
+           for elemento in row:
+              elemento = int(elemento)
+              datos.append(elemento)
+        
+    print(datos)
+    return render_template('graph.html', datos = datos, eje = eje)
+
+@app.route('/graph2', methods =['GET', 'POST'])
+def send2():
+    datos = [1,0,1,0,1]
+    print('Flag 2')
     return render_template('graph.html', datos = datos, eje = eje)
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
+    
