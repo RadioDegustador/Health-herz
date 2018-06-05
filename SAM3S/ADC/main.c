@@ -74,7 +74,7 @@ int main(void) {
    while (TRUE) {
     while( !(ADC->ADC_ISR & ADC_ISR_EOC0));//Este While revisa que no halla una interrupción, de existir vuelve a iniciar el ciclo While(TRUE)
 
-    	chThdSleepMilliseconds(500);  /*cada 500 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada
+    	chThdSleepMilliseconds(50);  /*cada 50 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada
     	espacio de ADC_Val[]*/    
       	ADC_Val = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 
     	//chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
