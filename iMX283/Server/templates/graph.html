@@ -5,12 +5,13 @@
     <script type = "text/javascript" src="{{url_for('static', filename = 'chartist.min.js')}}"></script>
     <link  rel="stylesheet" href="{{url_for('static', filename = 'graph.css')}}">
 
-<div class="prueba">
-	<body class="text-center">
+<META http-equiv="Refresh" content="5;url=/graph">
+
+<div class="grafica">
 <div class="ct-chart ct-perfect-fourth">
 <script>
       var latidos = {{ datos|tojson }};
-      var ejex  = {{eje|tojson}}
+      var ejex  = {{eje|tojson}};
 </script>
 <script>
 var data = {
@@ -24,15 +25,31 @@ var data = {
 
 // As options we currently only set a static size of 300x200 px
 var options = {
-  width: '90%',
-  height: '40%'
+  showPoint: false,
+  borderWidth: '1px',
+  axisX: {
+    showGrid: false,
+    showLabel: false
+  },
+width: '100%',
+ height: '100%'
 };
 
 // In the global name space Chartist we call the Line function to initialize a line chart. As a first parameter we pass in a selector where we would like to get our chart created. Second parameter is the actual data object and as a third parameter we pass in our options
 new Chartist.Line('.ct-chart', data, options);
 </script>
 </div>
-</body>
+</div>
+
+<button class="refresh-button" type="submit" onclick="javascript:window.location.reload();">Refrescar</button>
+
+<script type="text/javascript">
+function reFresh()
+}
+</script>
+
+<div class="bpm">
+  <h3>Latidos por minuto: {{ bpm }}</h3>
 </div>
 
 {% endblock %}

@@ -9,6 +9,7 @@ import csv
 
 datos = []
 eje = []
+bpm = 60
 
 app  = Flask(__name__)
 
@@ -26,12 +27,11 @@ def send():
            for elemento in row:
               elemento = int(elemento)
               datos.append(elemento)
-        
-    for i in range(len(datos)):
-	eje.append(i+1) 
 
-    return render_template('graph.html', datos = datos, eje = eje)
+    for i in range(len(datos)):
+	eje.append(i+1)
+
+    return render_template('graph.html', datos = datos, eje = eje, bpm = str(bpm))
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
-   

@@ -60,7 +60,7 @@ x_ = x;
 
  figure(1)
  subplot(2,1,1);
- plot(t,Y,'b');
+ plot(t,Y/max(Y),'b');
  axis([0 1 -1.2 1.2]);
  title('Salida filtrado');
  ylabel('Voltaje[V]');
