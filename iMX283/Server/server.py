@@ -7,8 +7,8 @@ import csv
 #El puerto al que esta conectado el SAM3S es /dev/ttySP0
 #SAM3S = serial.Serial('/dev/ttySP0',baudrate=115200,timeout = 3.0)
 
-datos = [0,0,0,0,0]
-eje = [-5,-4,-3,-2,-1,0]
+datos = []
+eje = []
 
 app  = Flask(__name__)
 
@@ -19,23 +19,19 @@ def index():
 @app.route('/graph', methods =['GET', 'POST'])
 def send():
     datos = []
+    eje = []
     with open('./datos.csv') as File:
         reader = csv.reader(File,delimiter=',')
-        print(reader)
         for row in reader:
            for elemento in row:
               elemento = int(elemento)
               datos.append(elemento)
         
-    print(datos)
-    return render_template('graph.html', datos = datos, eje = eje)
+    for i in range(len(datos)):
+	eje.append(i+1) 
 
-@app.route('/graph2', methods =['GET', 'POST'])
-def send2():
-    datos = [1,0,1,0,1]
-    print('Flag 2')
     return render_template('graph.html', datos = datos, eje = eje)
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
-    
+   
