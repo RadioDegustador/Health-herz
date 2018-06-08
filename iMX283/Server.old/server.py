@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 import json
 import serial
-import nympy as np
+import csv
 #Libreria para usar el puerto serial
 
 #El puerto al que esta conectado el SAM3S es /dev/ttySP0
@@ -10,6 +10,7 @@ import nympy as np
 datos = []
 eje = []
 bpm = 60
+Ts = 0.004
 
 app  = Flask(__name__)
 
@@ -19,37 +20,41 @@ def index():
 
 @app.route('/graph', methods =['GET', 'POST'])
 def send():
-    	senal = []
+    	datos = []
     	eje = []
-    
-    	#El puerto al que esta conectado el SAM3S es /dev/ttySP0
-	SAM3S = serial.Serial('/dev/ttySP0',baudrate=115200,timeout = 3.0)
-	i = 0
-	while (i<1200):
-		dato = SAM3S.readline()
-		flag = 0
-		for idx in range(0,len(dato)):
-                	if(dato[idx]==','):
-				try:			
-					senal.append(int(dato[flag:idx])) 
-				except ValueError:
-					senal.append(0)
-					print('Error en la trama')
-		flag = idx+1
-        	try:
-			senal.append(int(dato[flag:len(dato)]))
-		except ValueError:
-			senal.append(0)
-			print('Error en la trama')
-		i = i + 12
-
-	SAM3S.close()
-	SAM3S.reset_input_buffer()
+    	with open('./datos.csv') as File:
+    		reader = csv.reader(File,delimiter=',')
+		for row in reader:
+			for elemento in row:
+				elemento = int(elemento)
+				datos.append(elemento)
 	
-	for i in range(0,len(senal)):
-		eje.append(i)
+	prom = 0.0
+	for idx in range(0,len(datos)):
+		prom=prom+datos[idx]
+	
+	prom = prom/len(datos)
 
-    	return render_template('graph.html', datos = senal, eje = eje, bpm = str(bpm))
+	num_max = max(datos)
+
+	for i in range(0,len(datos)):
+		eje.append(i)
+		datos[i] = (datos[i]-prom)/num_max
+
+	#Calculo de los latidos por minuto
+	for i in range(0,len(datos)):
+		if(datos[i]>0.75):
+			flag1 = i
+			break
+			
+	for i in range(flag1+int(0.2/Ts),len(datos)):
+		if(datos[i]>0.75):
+			flag2 = i
+			break
+		
+	bpm = int(60/((flag2-flag1)*Ts))
+
+    	return render_template('graph.html', datos = datos, eje = eje, bpm = str(bpm))
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')

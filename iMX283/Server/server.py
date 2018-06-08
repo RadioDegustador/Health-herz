@@ -45,9 +45,24 @@ def send():
 	
 	prom = prom/len(senal)
 
-	for i in range(0,len(senal)):
+	num_max = max(datos)
+
+	for i in range(0,len(datos)):
 		eje.append(i)
-		senal[i] = (senal[i]-prom)/max(senal)
+		datos[i] = (datos[i]-prom)/num_max
+		
+	#Calculo de los latidos por minuto
+	for i in range(0,len(datos)):
+		if(datos[i]>0.75):
+			flag1 = i
+			break
+			
+	for i in range(flag1+int(0.2/Ts),len(datos)):
+		if(datos[i]>0.75):
+			flag2 = i
+			break
+		
+	bpm = int(60/((flag2-flag1)*Ts))
 
     	return render_template('graph.html', datos = senal, eje = eje, bpm = str(bpm))
 
