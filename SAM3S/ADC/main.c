@@ -35,7 +35,10 @@ static msg_t Thread1(void *arg) {
  */
 int main(void) {
    int ADC_Val; //tiene que ser un entero
-   int x1=0, x2= 1,x3=0 ,x4= 0,x5=0,x6=0,x7=0,x8=0,x9=0,x10=0,y=0;
+   int x1=0, x2=0,x3=0 ,x4= 0,x5=0,x6=0,x7=0,x8=0,x9=0,x10=0,y=0;
+   //int i = 0;
+   //int max = 12;
+   //int Y[max];
    halInit();
    chSysInit();
    sdStart(&SD2, NULL);  /* Activates the serial driver 2 sdStart(SerialDriver *sdp, const SerialConfig *config) de la libreria Serial	*/
@@ -74,7 +77,7 @@ int main(void) {
    while (TRUE) {
     while( !(ADC->ADC_ISR & ADC_ISR_EOC0));//Este While revisa que no halla una interrupción, de existir vuelve a iniciar el ciclo While(TRUE)
 
-    	chThdSleepMilliseconds(50);  /*cada 50 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada
+    	chThdSleepMilliseconds(4);  /*cada 50 milisegundos hago el procedimiento de tomar todos los valores ADC_DCR y alojarlos en cada
     	espacio de ADC_Val[]*/    
       	ADC_Val = ADC->ADC_CDR[0]; //ADC_CDR registro que lee el ADC, existen hasta 14 
     	//chprintf((BaseChannel *)&SD2, "%d \r\n", ADC_Val[i]*3300/4096);
@@ -82,7 +85,7 @@ int main(void) {
 //Falta arreglar el valor de ADC_Val, multiplicando por 33000/4096, para trabajar desde un principio con los valores de tensión reales
     	
     	
-    	y = -132*x1-133*x2-2*x3+187*x4+278*x5+187*x6-2*x7-133*x8-132*x9-60*x10-60*ADC_Val*3300/4096;
+    	y = 91*x1-37*x2-290*x3+22*x4+387*x5+22*x6-290*x7-37*x8+91*x9+3*x10+3*ADC_Val*3300/4096;
     	
     	x10 = x9;
     	x9  = x8;
@@ -94,17 +97,17 @@ int main(void) {
     	x3  = x2;
     	x2  = x1;
     	x1  = ADC_Val*3300/4096;
-    		   
-    	chprintf((BaseChannel *)&SD2, "%d \r\n",y);	   	 
-    
-   
-    
-    //	chThdSleepMilliseconds(1000);
-    //float  salida[ELEMENT_COUNT(ADC_Val)+ELEMENT_COUNT(h)-1];
-   
-    //convolve(ADC_Val,ELEMENT_COUNT(ADC_Val),h,ELEMENT_COUNT(h),salida);// Si no sirve comentar esa línea
+    	
+    	chprintf((BaseChannel *)&SD2, "%d \r\n",y);
+    	
+/*    	i = i + 1; 	
+ 	if(i>max) {
+ 	chprintf((BaseChannel *)&SD2, "%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d \r\n",Y[0],Y[1],Y[2],Y[3],Y[4],Y[5],Y[6],Y[7],Y[8],Y[9],Y[10],Y[11]);
+ 	i = 0;
+ 	} else {
+ 	Y[i-1] = y;
+ 	}   */
    };
-   
    
    return(0);
 }

@@ -8,14 +8,25 @@ def lectura():
 	global senal,i
 	senal = []
 	i = 0
-	for idx in range(1,81):
+	for idx in range(1,1001):
 		senal.append(0)
 	while (1):
 		dato = SAM3S.readline()
-		dato_float = round(float(dato)/1000,3)
-		dato_int = int(dato_float)
-		senal.append(dato_int)
-		i = i + 1
+		flag = 0
+		for idx in range(0,len(dato)):
+                	if(dato[idx]==','):
+				try:				
+					senal.append(int(dato[flag:idx])) 
+				except ValueError:
+					senal.append(0)
+					print('Error en la trama')
+				flag = idx+1
+        	try:
+			senal.append(int(dato[flag:len(dato)]))
+		except ValueError:
+			senal.append(0)
+			print('Error en la trama')
+		i = i + 12
 
 	SAM3S.close()
 	
@@ -23,7 +34,7 @@ def escritura():
 	global senal, i
 	time.sleep(1)
 	while(1):
-		if i >= 20:
+		if i >= 260:
 			datos_s = []
 			os.remove('/media/datos.csv')
 			for elemento in senal:
@@ -35,7 +46,7 @@ def escritura():
 			 	writer.writerows([datos_s])
 			print('Se guardaron los datos')
 			myFile.close
-			senal = senal[len(senal)-80:len(senal)]
+			senal = senal[len(senal)-200:len(senal)]
 			i = 0
 		time.sleep(0.26)
 		
@@ -44,3 +55,4 @@ thread2 = threading.Thread(target=escritura)
 
 thread1.start()
 thread2.start()
+

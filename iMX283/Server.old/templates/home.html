@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <link  rel = "stylesheet" href="{{url_for('static', filename = 'home.css')}}">
+
+  <form method="POST" action="\graph" class="form-signin">
+    <div class="cuerpo">
+      <img style="max-width: 500px" src="{{url_for('static', filename = 'images/imagen.png')}}">
+      <h1 class="h1 mb-1 font-weight-normal">Por favor ingrese</h1>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+    </div>
+  </form>
+{% endblock %}

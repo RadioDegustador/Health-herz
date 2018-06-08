@@ -1,0 +1,25 @@
+.grafica {
+  width: 90%;
+  background-color: #000;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.refresh-button {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.bpm {
+  width: 54%;
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
